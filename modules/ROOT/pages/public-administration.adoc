@@ -1,0 +1,115 @@
+= Software libre y administración pública
+ifndef::envsite,env-github[]
+include::_attributes.adoc[]
+endif::[]
+include::{partialsdir}/README.adoc[tag=metadata]
+
+== La práctica
+
+Hay muchos ejemplos de uso y creación de software libre por parte de las administraciones públicas tanto europeas como en el ámbito internacional.
+La migración de servidores y escritorios de la administración de la ciudad de Múnich es un caso muy conocidofootnote:[_Presentación Declaration of Independence: The LiMux Project in Munich, en línea en https://joinup.ec.europa.eu/ sites/default/files/fe/cb/fa/IDABC.OSOR.casestudy.LiMux.pdf_], pero existen muchos más ejemplos, como la migración a servidores y escritorios Linux que se está realizando en el Ayuntamiento de Zaragozafootnote:[_Migración escritorio software libre, en línea en http://www.zaragoza.es/contenidos/azlinux/migracionescritoriosl. pdf . Más información https://www.zaragoza.es/ciudad/sectores/tecnologia/swlibre/zo2.html._].
+
+La Comisión Europea establece, dentro de su programa _Interoperable Delivery of European eGovernment Services to Public Administrations, Businesses and Citizens_ (ahora llamado JoinUp), un observatorio de software libre que recoge casos de referencia de adopción de software libre en la UEfootnote:[_Open source observatory, en línea en https://joinup.ec.europa.eu/node/26689_]: revela que literalmente miles de ciudades y regiones instalan y liberan software libre en Europa.
+El sitio comenta que más de 15.000 proyectos están licenciados bajo la licencia libre EUPL (ver abajo), la mayoría provenientes de las administraciones europeas.footnote:[_More projects licensed under EUPL (15,000 according to GitHub), en línea en https://joinup.ec.europa.eu/community/eupl/news/more-projects-licensed-under-eupl-15000-according-github_] JoinUp también establece una federación de repositorios de software libre en el ámbito europeofootnote:[_JoinUp: About federated repositories, en línea en https://joinup.ec.europa.eu/catalogue/repository_], a efectos de poder buscar e identificar soluciones existentes bajo licencias libres.
+
+****
+[quote, Comisión Europea, https://ec.europa.eu/info/european-commissions-open-source-strategy_en]
+____
+La Comisión Europea va a aumentar más el papel del software de código abierto para muchos de sus servicios TIC principales y soluciones de software. La estrategia renovada pone especial énfasis en las adjudicaciones, la contribución a los proyectos de software de código abierto y facilitar más software de código abierto a la Comisión.
+____
+****
+
+La propia política de estrategia de software libre de la Comisión Europea fue publicada en 2014, reforzando su voluntad de liberar bajo licencia libre el software creado por o para la Comisión, así como contribuir y participar en comunidades de desarrollo.footnote:[_EC Open Source Software Strategy, en línea en https://ec.europa.eu/info/european-commissions-open-source-strategy_en]
+
+Dentro de España, el ejemplo inicial más notable de liberación y uso de software es el proyecto LinEx, de Extremadura, así como el repositorio de Andalucía (apoyado por la Orden, de 21 de febrero de 2005, sobre disponibilidad pública de los programas informáticos de la administración de la Junta de Andalucía y de sus organismos autónomos).
+Desde entonces, se han creado varias versiones de Linux para las administraciones españolas (incluido Linkat, para la comunidad educativa catalanafootnote:[_En línea en http://linkat.xtec.cat/portal/index.php_[http://linkat.xtec.cat/portal/index.php]]) y la administración central mantiene un repositorio de software reutilizable (en el Centro de Transferencia de Tecnologíafootnote:[_En línea en https://administracionelectronica.gob.es/pae_Home/pae_SolucionesCTT/pae_CTT_-__Que_es_.html y la cuenta GitHub está en https://github.com/ctt-gob-es_]) y su propia cuenta en GitHub.
+
+El propio Ayuntamiento de Barcelona ha liberado el software Sentilofootnote:[_Sentilo Project, en línea en www.sentilo.io_], una plataforma de gestión de datos, desarrollado para la ciudad, mientras que la Generalitat de Catalunya tiene varios proyectos liberados, entre otros EinesTICfootnote:[_Generalitat de Catalunya, EinesTIC, en línea en http://sac.gencat.cat/sacgencat/AppJava/servei_fitxa.jsp?codi=14232_].
+
+
+== Ventajas
+
+Las ventajas del uso del software libre por parte de la administración pública han sido discutidas en varios lugares.
+Destacamos sin ir más lejos la Propuesta de recomendaciones a la Administración General del Estado sobre utilización del software libre, MAP, de junio de 2005.
+Sintetizando este documento, se pueden enumerar las siguientes ventajas legales:
+
+[loweralpha]
+. Obtener derechos suficientes sobre el software (control, por un lado, y libertad, por el otro) para optimizar su gestión: actualizaciones, redistribuciones, etc.
+. Disfrutar de la libertad de copia y redistribución interna y externa a la administración pública.
+. Contribuir a la puesta en común y reutilización de software de las administraciones públicas (IDA, nacional).
+. Cumplir con el marco legal de la actuación pública (eficacia, eficiencia, conservación, seguridad, normalización e interoperabilidad, acceso y respeto lingüístico, reutilización de recursos).
+
+Estas ventajas también han sido estudiadas y presentadas por Cenatic, el _Centro de Excelencia de software de Fuentes Abiertas_ de la Administración Pública española (perteneciente a Red.es, del MINETUR de España), por ejemplo en su publicación “_Diez razones para el uso de software de fuentes abiertas en la educación”_ o _“Diez razones para que la administración libere software_”.footnote:[_En línea en http://www.cenatic.es/index.php?option=com_content&view=article&id=25669 y http://www.cenatic. es/publicaciones/divulgativas?download=21%3A10-razones-para-que-la-administracion-libere-software-extendido respectivamente_], enumerando, a título de resumen, las siguientes ventajas:
+
+* Independencia del fabricante de software: Gracias al tipo de licencia, las administraciones públicas y las empresas usuarias pueden controlar el uso de la tecnología y tienen más libertad para diseñar su estrategia tecnológica futura.
+* Ahorro de costes: Gracias a la compartición, la reutilización y la ausencia de costes asociados a las licencias, se genera un ahorro significativo en el coste final de las aplicaciones, utilizando siempre un software 100% legal.
+* Mayor seguridad y calidad del software: Hacer público el código permite aportaciones de la comunidad de desarrolladores que contribuye de forma continua a la seguridad y la calidad del software, corrigiendo los errores detectados y haciendo evolucionar más rápido la aplicación.
+* Desarrollo del sector TIC local: Al tener acceso al código, las pymes del entorno pueden ofrecer servicios a las administraciones públicas y a las empresas, de modo que pueden competir en mejores condiciones con otros operadores dominantes en el sector.
+* Generación de valor en comunidad: Usar software libre permite a las administraciones públicas y a las empresas compartir y reutilizar aplicaciones, colaborando entre sí, con el sector tecnológico y con la comunidad de desarrolladores.footnote:[_En línea en http://www.cenatic.es/sobre-el-software-libre/ventajas-del-software-libre_]
+
+En el ámbito europeo, varios estudios han resaltado estas mismas ventajas, por ejemplo:
+
+****
+[quote, Parlamento vasco: "Decreto 159/2012, de 24 de julio, por el que se regula la apertura y reutilización de las aplicaciones informáticas de la administración pública de la Comunidad Autónoma de Euskadi"_]
+____
+La reutilización que con ello se logra permite un claro ahorro de costes en el desarrollo, el mantenimiento y la evolución del código fuente.
+Pero, principalmente, fomenta el desarrollo de una economía basada en el conocimiento y la innovación, y coadyuva al desarrollo de un ecosistema empresarial de las tecnologías de la información y de las comunicaciones, al mejorar la competitividad del mismo a través del fomento de la cooperación entre el sector privado y el sector público con el único objeto de mejorar los servicios públicos, cuya calidad se basa, en la mayoría de los casos, en el uso masivo de las tecnologías de la información.
+____
+****
+
+== Marco legal
+
+Queda claro que las administraciones públicas españolas son competentes para adquirir y utilizar software libre, intercambiarlo entre ellas y liberar software de su titularidad a la comunidad.
+En España, existen algunas disposiciones generales que tienden a favorecer el uso de software libre en la administración pública.
+
+[loweralpha]
+. La más relevante se encuentra originalmente en el Capítulo III del Título IV de la Ley 11/2007, de 22 de junio, de Acceso Electrónico de los Ciudadanos a los Servicios Públicos (LAECSP), titulado “Reutilización de aplicaciones y transferencia de tecnologías”, ahora *arts. 157 y 158* *de la Ley 40/2015*, en los que se establecen medidas que, sin promover directamente el software libre, facilitan (a) la reutilización de recursos informáticos entre administraciones, (b) la *creación de repositorios de aplicaciones* para su reutilización (como el repositorio de CTT del Gobierno central español) y (c) la *liberación* de aquellas aplicaciones que son propiedad de las administraciones públicas bajo licencias libres.
+. Asimismo, se identifica la *disposición adicional decimosexta de la Ley 57/2007*, de 28 de diciembre, de Medidas de Impulso de la Sociedad de la Información, que establece que las administraciones públicas pueden poner a disposición del público aquellos *contenidos* *digitales* cuyos derechos de propiedad intelectual le pertenezcan sin restricciones o sean de dominio público, bajo licencias que permiten el estudio, copia y redistribución en los mismos términos (es decir, con un grado de _copyleft_).
+. Más importante, encontramos los artículos 16 y 17 del *Real Decreto 4/2010*, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el ámbito de la administración electrónica:
+
+* En su artículo 16, se establecen las condiciones de licenciamiento aplicables a las aplicaciones informáticas reutilizables y que se declaren como de código fuente abierto o de fuentes abiertas, y en particular que estas aplicaciones pueden redistribuirse a otros usuarios pero siempre que la obra derivada mantenga las garantías indicadas, es decir, con un elemento de _copyleft_ (suave o fuerte).
+Asimismo, para la liberación de software, el art. 16 recomienda el uso de la licencia EUPL, sin perjuicio de otras que garanticen los derechos establecidos.
+* En su artículo 17, se establecen determinadas condiciones aplicables tanto a los directorios de aplicaciones informáticas para su libre reutilización (en cuanto a su enlace con instrumentos equivalentes de otras administraciones públicas) como al deber de tener en cuenta las soluciones disponibles en los mismos que puedan satisfacer total o parcialmente las necesidades de nuevos sistemas o servicios, la mejora y actualización de los ya implantados, así como los relativos a la publicación del código fuente de las aplicaciones informáticas en los citados directorios con el fin de favorecer las acciones de compartir, reutilizar y colaborar en beneficio de una mejor eficacia y eficiencia.
+
+En el ámbito autonómico, por ejemplo, existe la *Orden, de 21 de febrero de 2005*, sobre disponibilidad pública de los programas informáticos de la administración de la Junta de Andalucía y de sus organismos autónomos y también, más reciente, el *Decreto 159/2012,* *de 24 de julio*, por el que se regula la apertura y la reutilización de las aplicaciones informáticas de la administración pública de la Comunidad Autónoma de Euskadi.footnote:[_Decreto 159/2012, de 24 de julio, por el que se regula la apertura y reutilización de las aplicaciones informáticas de la administración pública de la Comunidad Autónoma de Euskadi; http://noticias.juridicas.com/base_datos/CCAA/ pv-d159-2012.htmly Orden, de 25 de septiembre de 2012, de la Consejería de Interior, Justicia y Administración Pública, por la que se aprueba la política de apertura y reutilización de aplicaciones informáticas de la administración pública de la Comunidad Autónoma de Euskadi._]
+Ambos favorecen el uso y la reutilización de software libre y la creación de repositorios para facilitar dichas acciones.
+
+El Tribunal Constitucional en Italiafootnote:[_Italian Constitutional Court in 2010, with Decision no. 122 of March 22._] ha considerado que favorecer soluciones basadas en software libre no distorsiona la competencia ni es contrario a las leyes (italianas) de contratos del sector público, ya que especificar el régimen legal del suministro del software (la licencia de software libre de entrega) no es una discriminación tecnológica, de marcas o de proveedor, sino una condición legal de los pliegos que todos los proveedores deberán cumplir.
+
+Las diferentes legislaciones a las que el Ayuntamiento de Barcelona debe someterse ni excluyen ni exigen el uso de software libre en la administración, pero algunos de los criterios que establecen para la adquisición de software, como el fomento de la reutilización o la necesidad de interoperabilidad, se logran de forma más efectiva, consistente y duradera con licencias libres.
+
+== Contratación pública de software libre
+
+En cuanto a las condiciones de adquisición de tecnologías para los servicios digitales de las administraciones, de software libre o basadas en él, si bien ningún país europeo obliga a usar software libre, la mayoría prohíbe la discriminación de proveedores que presenten propuestas de software libre, basándose en los principios de libre competencia y no discriminación.
+Por contra, obligan a que el software suministrado cumpla con los estándares abiertos e internacionalmente reconocidos.
+
+Otros marcos reguladores establecen preferencias para el uso de tecnologías libres. En 2014, por ejemplo, el Gobierno italiano promovió soluciones libres, estableciendo una orden de prioridad en cuanto al análisis de las propuestas: las administraciones deben considerar soluciones libres antes que software propietario y ante soluciones cloud.18
+
+En España, los suministros a la administración pública de software y servicios relacionados con el software están principalmente reglamentados por el *Real Decreto Legislativo 3/2011,* *de 14 de noviembre, por el que se aprueba el texto refundido de la Ley de Contratos del Sector Público.* Más allá de los procedimientos habituales de la contratación pública (pliegos, ofertas, adjudicación, realización y resolución, etc.) destacamos algunos puntos importantes en el contexto del software libre:
+
+* Esta ley considera la provisión de software “base” o estándar (propio o de terceros) como un suministro, mientras que los desarrollos particulares a medida se consideran servicios (arts. 9 y 10).
+* Para el segundo caso, el prestador de servicios (de desarrollo) debe ceder a la administración pública los derechos en las adaptaciones y personalizaciones y otros desarrollos entregados en el curso de un contrato, salvo que se establezca otra cosa en los pliegos de cláusulas administrativas (art. 301).
+
+Recordemos también el artículo 17 del RD 4/2010, de 8 de enero, que obliga a las administraciones a consultar los repositorios de soluciones existentes reutilizables, antes de contratar una nueva tecnología.
+
+== Licencias para la liberación de software por parte de la administración pública
+
+El artículo 16 del mencionado Real Decreto 4/2010, de 8 de enero, establece cuatro condiciones para la liberación de software por parte de las administraciones públicas españolas:
+
+[quote, Cortes Generales (Spanish Parliament), "Real Decreto 4/2010, de 8 de enero"]
+____
+[start=2]
+. Las administraciones utilizarán para las aplicaciones que declaren ser de fuentes abiertas aquellas licencias que aseguren que los programas, datos o información que se comparten:
+.. Pueden ejecutarse para cualquier propósito.
+.. Permiten conocer su código fuente.
+.. Pueden modificarse o mejorarse.
+.. Pueden redistribuirse a otros usuarios con o sin cambios siempre que la obra derivada mantenga estas mismas cuatro garantías.
+. Para este fin se procurará la aplicación de la Licencia Pública de la Unión Europea, sin perjuicio de otras licencias que garanticen los mismos derechos expuestos en los apartados 1 y 2.
+____
+
+Eso significa que una administración pública puede utilizar cualquier licencia actual de software libre siempre que contenga un elemento de _copyleft_ (condición 2(d) arriba), si bien se “recomienda” la licencia EUPL.
+Para la liberación de software por parte de la Comisión Europea o la UE, así como, por extensión, otras administraciones públicas, se realizó un estudio en 2005 y se determinó que ninguna licencia libre existente, si bien podía servir, era idónea. Por tanto, en 2007 (actualizada en 2017), se publicó la European Union Public License (EUPL o Licencia Pública de la Unión Europea), que es una licencia con _copyleft_ suave.
+
+****
+La EUPL es una licencia interesante por su anexo sobre “licencias compatibles” o “interoperables”. Para evitar conflictos de licencia, la EUPL permite a los licenciatarios redistribuir obras derivadas (y obras combinadas o compuestas) bajo una licencia compatible o bajo una licencia incompatible indicada en el anexo (que incluye la Eclipse PL, la OSL 2 y 3.0, la CeCILL, la LGPLv2.1 y la GPLv2 y ahora la GPL3 y la AGPL1). Esta compatibilidad expresa y la política de “interoperabilidad” se aplican al resultado final de la integración (y no a los componentes originales que mantienen su licencia propia). Por lo tanto estos términos de interoperabilidad respetan la licencia original, pero permiten interoperabilidad con otras licencias copyleft normalmente incompatibles.footnote:[_Ver descripción de EUPL en "The European Union Public Licence (EUPL)", en línea en http://www.ifosslr.org/ifosslr/article/view/91; y “Comments to Understanding the EUPL 1.2", en línea en https://joinup.ec.europa.eu/news/understanding-eupl-v12_]
+****

@@ -1,0 +1,59 @@
+= Interoperabilidad y estándares abiertos
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+include::{partialsdir}/README.adoc[tag=metadata]
+
+La interoperabilidad es la capacidad de distintos sistemas digitales, posiblemente de diferentes proveedores, de funcionar conjuntamente y compartir información sin obstáculos técnicos o jurídicos.
+En el glosario se da una definición más detallada de qué entendemos por _interoperabilidad_ y sus diferentes dimensiones (organizativa, semántica, técnica y temporal).
+
+Los estándares o normas existen para proporcionar interoperabilidad entre diferentes productos.
+Cuando las normas están bajo el control de solo una parte o de algunas de ellas, esto generalmente conduce a la dominación del mercado.
+Para evitar esto, debe garantizarse la libertad de utilizar e implementar estándares en cualquier forma que a los usuarios y desarrolladores puedan parecerles apropiados.
+
+Un estándar es generalmente una norma o especificación con respecto a cierta ingeniería o criterios técnicos, métodos, procesos y prácticas, generalmente logrados a través del consenso de las partes interesadas.
+Normalmente, las normas se crean bajo los auspicios de organizaciones formales como la UIT, la ISO, la IETF, la W3C, la OASIS, etc.
+
+Mediante la adopción de un estándar abierto para un servicio digital, la administración y sus usuarios finales no están restringidos a un proveedor en particular y esto disminuye la dependencia del mismo; por lo tanto, permite aumentar las opciones del usuario final y da como resultado un mercado más competitivo para las tecnologías y soluciones que aplican la norma.
+
+Se ha argumentado que un estándar abierto es más que una mera especificación.
+Un estándar abierto es “abierto” debido a los principios subyacentes y por la forma en que se ha desarrollado públicamente y en que se ha aprobado y por tanto es accesible.
+Se rige por un proceso de colaboración y consenso.
+Un estándar abierto se basa generalmente en el principio de que está disponible para que cada usuario final lo pueda obtener, leer e implementar, sin regalías ni costes.
+Se ha argumentado que se puede imponer una tasa mínima o “razonable” (por ejemplo, para certificar el cumplimiento por parte de una organización de normalización), que debe ser entonces un coste bajo o razonable (RAND: razonable y no discriminatorio).
+Sin embargo, para muchos esto no es aceptable, ya que imposibilita, por ejemplo, las implementaciones en software libre.
+
+El Ayuntamiento de Barcelona considera que el uso de estándares abiertos:
+
+* Promueve la interoperabilidad y la integración compatible entre los múltiples sistemas de información y conjuntos de datos del Ayuntamiento, tanto de manera interna como en interrelación con otros sistemas y datos externos.
+Por lo tanto, los estándares abiertos son una condición previa para la neutralidad tecnológica.
+
+* Establece normas comunes y reduce las diferencias entre especificaciones técnicas, creando la igualdad de condiciones (un "level playing field"), lo que disminuye las barreras para el desarrollo y la prestación de servicios competitivos en el ámbito local, regional e internacional, estimulando la innovación y, al mismo tiempo, reduciendo los costes.
+
+* Permite una mayor sinergia para la colaboración regional e internacional en el sector informático y en particular para la publicación e intercambio de datos entre diferentes servicios y entidades.
+
+* Garantiza que la información generada digitalmente en un determinado momento en el tiempo será legible y reutilizable en los próximos milenios (independiente de los programas utilizados para su generación o lectura).
+Así, las especificaciones públicas y abiertas garantizan la preservación, durabilidad, integridad y reutilización de la información sin restricciones.
+
+* Reduce la duplicación de trabajo, lo que permite a sistemas y entidades interdependientes trabajar juntos para completar o cumplir un proceso a menor coste.
+
+* Facilita la interacción de la ciudadanía con las administraciones públicas y entidades privadas, ya que no imponen ningún proveedor de software en particular.
+Una empresa o persona que utilice un software basado en estándares abiertos nunca se verá obligada a adquirir un software competidor del que ya está utilizando para ejercer el derecho a comunicarse con su administración pública.
+
+* Permite una mayor representación de intereses en el sector, con las consecuentes mejoras continuas necesarias, el soporte, la competencia entre proveedores y más flexibilidad en las opciones tecnológicas.
+Esto conduce a una reducción del riesgo para el Ayuntamiento, de modo que sus usuarios finales adoptarán las especificaciones del estándar abierto al integrar los sistemas del Ayuntamiento con sus proveedores, ciudadanos y otros socios.
+
+* Promueve el uso de software libre, ya que su proceso de elaboración consiste en la definición de especificaciones disponibles públicamente, y la disponibilidad de su código fuente promueve un debate abierto y democrático alrededor de las especificaciones, haciéndolas más robustas e interoperables.
+
+El Ayuntamiento considera que las características mínimas que deben tener una especificación y sus documentos para ser considerados como estándar abierto son las siguientes:
+
+* La norma es adoptada y será mantenida por una organización sin ánimo de lucro, y su desarrollo continuo se realiza sobre la base de un procedimiento abierto de toma de decisiones a disposición de todas las partes interesadas (protección consensual de la privacidad en el sector de las comunicaciones electrónicas o decisión mayoritaria).
+
+* La norma se ha publicado y el documento de especificación del estándar está disponible gratuitamente o con un cargo nominal.
+Debe estar permitido a todas las personas copiarlos, distribuirlos y usarlos sin ningún cargo o con una tarifa nominal.
+
+* Cualquier derecho de propiedad intelectual e industrial sobre la norma (por ejemplo, posibles patentes) se licencia al usuario libre de regalías.
+
+* No hay restricciones sobre la utilización y reutilización de la norma.
+
+La interoperabilidad técnica, semántica y organizativa está además altamente regulada en la legislación a partir del Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el ámbito de la administración electrónica.

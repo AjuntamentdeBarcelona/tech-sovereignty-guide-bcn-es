@@ -1,0 +1,128 @@
+== Software libre
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+include::{partialsdir}/README.adoc[tag=metadata]
+
+== Concepto y definiciones
+
+Los principios generales que subyacen al software libre son los conceptos de *libertad* y de *acceso*, principios básicos de la soberanía tecnológica: libertad de uso del software y acceso al código fuente del mismo para poder disfrutar de esta libertad.
+
+El software libre no se diferencia del resto de software en cuanto a sus propiedades técnicas, si bien su desarrollo se suele organizar de un modo diferente.
+Lo que lo distingue principalmente son sus características legales y las condiciones de uso y de (re)distribución establecidas en la licencia.
+El uso del software libre no sigue las mismas reglas que el software licenciado de manera más tradicional —“propietario”— como la mayoría de las tecnologías del sector establecido del software, cuyas licencias “propietarias” suelen establecer limitaciones estrictas al uso del software en cuestión (por equipo, por número de instalaciones o de usuarios, por CPU, por cantidad de datos procesados, etc.).
+Lo cual implica que se requiera “comprar” tantas licencias como usos haya.
+
+El software libre se diferencia del software propietario por los derechos y las “libertades” concedidas en las correspondientes licencias (“licencias libres”, muchas de las cuáles han sido llamadas también “licencias de código abierto”).
+En resumidas cuentas, estos derechos permiten a cualquiera *utilizar, copiar o modificar libremenel software y redistribuirlo a terceros*, bajo ciertas condiciones.
+
+Una licencia libre es una licencia que garantiza las “libertades del software”, según la Free Software Foundation (FSF).
+Una licencia de código abierto es aquella que cumple las directrices establecidas por la Open Source Initiative (OSI).
+Desde una perspectiva técnica y práctica, las libertades del software libre y las directrices OSI se solapan bastante (mientras que la visión filosófica de las instituciones que apoyan unas y otra puedan ser bastante diferentes).
+
+La Free Software Foundation definió el software libre de la siguiente manera (1986)footnote:[_La definición del software libre, https://www.gnu.org/philosophy/free-sw.es.html[https://www.gnu.org/philosophy/free-sw.es.html.]_]: _Un programa es software libre si los usuarios tienen las cuatro libertades esenciales:_
+
+. _La libertad de usar el programa, con cualquier propósito (libertad 0)._
+. _La libertad de estudiar cómo funciona el programa, y adaptarlo a sus necesidades (libertad 1)._ Acceder al código fuente es una precondición para esta libertad.
+. _La libertad de distribuir copias (libertad 2)._
+. _La libertad de mejorar el programa y hacer públicas las mejoras a los demás (libertad 3)._ Acceder al código fuente es una precondición para esta libertad.
+
+Por otro lado, la expresión “código abierto” (o “software de fuentes abiertas”) es una traducción de _open source software_ y se refiere a aquellos programas que se distribuyen bajo una licencia que, siendo libre, cumple con las directrices de la OSI agrupadas en la definición del software de fuentes abiertas (_open source definition_), que recogen y desarrollan estas cuatro libertadesfootnote:[_Open source definition en https://opensource.org/osd_].
+
+Dentro de esta definición, las licencias deben cumplir diez condiciones para ser consideradas de fuentes abiertas:
+
+. Libre redistribución: puede ser entregado gratuitamente o vendido.
+. Código fuente: debe ser incluido o debe poder ser obtenido libremente.
+. Obras derivadas: debe permitirse la redistribución de modificaciones.
+. Integridad del código fuente del autor: las licencias pueden requerir que las modificaciones deban ser redistribuidas solo como parches.
+. No discriminación contra personas o grupos.
+. No discriminación en cuanto a usos: por ejemplo, los usuarios comerciales no deben ser excluidos.
+. Distribución de la licencia: los derechos vinculados al programa deben aplicarse a todas las personas hacia las que el programa es redistribuido, sin la necesidad de la ejecución de una licencia adicional por parte de estas.
+. La licencia no debe ser específica de determinado producto: el programa no puede ser licenciado solo como parte de una distribución mayor.
+. La licencia no debe restringir a otro software: la licencia no puede insistir en que cualquier otro software con el que este se distribuya deba ser también de código abierto.
+. La licencia debe ser neutra tecnológicamente hablando.
+
+Estas directrices aseguran, entre otras cosas, que una licencia certificada como “de fuentes abiertas” conceda a los usuarios los mencionados derechos de explotación del software y por tanto garantice que se hace sin *discriminación* y que los licenciatarios directos puedan *acceder al código fuente*.
+
+En el ámbito jurídico, no existe diferencia entre la definición de software libre y las directrices de código abierto.
+Esto se traduce, en todo caso y en términos de licencia, en que se permite al usuario reproducir, transformar (mejorar, adaptar, integrarlo con otros programas) y distribuir o redistribuir el programa y cualquier código derivado del mismo.
+
+== CopyLeft
+
+Las licencias de software libre con _copyleft_ van más allá de garantizar las cuatro libertades básicas del software para los licenciatarios o usuarios directos.
+Una licencia que concede los mencionados derechos sin imponer condiciones permite al licenciatario incluir el software libre en otro software y redistribuir el resultado bajo licencia restrictiva o “propietaria”, de manera que los usuarios del nuevo programa no tendrán las libertades originalmente cedidas.
+Es decir, que no hay ninguna garantía de que el software siga siendo libre.
+Por lo que hubo que inventar un mecanismo para garantizar dicha libertad: el _*copyleft*_.
+
+Con el objetivo de asegurar que cualquier usuario del software pueda disfrutar de estas libertades en todo momento, las licencias de software libre con _copyleft_ obligan a los licenciatarios a:
+
+[loweralpha]
+. Utilizar la misma licencia libre para la redistribución del software (tanto el software original sin modificar como para cualquier modificación que del mismo se realice).
+. Proporcionar u ofrecer acceso al código fuente a todos los usuarios.
+
+Esta doble condición, conocida como _copyleft_, elimina cualquier posibilidad de poder distribuir el software libre bajo licencia privativa.
+Vemos que el _copyleft_ recoge los dos conceptos fundamentales del software libre (y la soberanía tecnológica): la libertad y el acceso.
+
+== Licencias libres
+
+Dentro del esquema general de estas libertades, existen varias maneras de expresarlas jurídicamente.
+Esto, junto con las distintas condiciones adicionales que uno puede agregar, es la causa de que existan cerca de 90 licencias actuales y del pasado clasificadas como “libres” por la FSF, muchas de las cuáles son reconocidas como de código abierto por la OSI, cada una con sus particularidades.
+La mayor diferencia radica en las condiciones sobre la redistribución y el grado de _copyleft_ suele ser el criterio de clasificación o diferenciación de las licencias.
+
+[loweralpha]
+. Si el programa se ha licenciado bajo una licencia “*permisiva*” (de tipo BSD o X/MIT), generalmente no hay condiciones sobre la redistribución, lo que permite mezclarlo con cualquier otro software.
+. Si el programa se ha licenciado bajo la licencia GPL u otra licencia “*con* _*copyleft*_”, entonces la redistribución del programa y de cualquier obra derivada o compuesta que la incluya, debe ser bajo la misma licencia (p. ej. la GPL), y ofrecer al usuario acceso al código fuente. Esto asegura que el programa quede “libre” y no pueda ser “privatizado”.
+. Algunas licencias “intermedias” o con “*_copyleft_ suave*” (como la LGPL, la MPL o la EUPL) permiten agregar o vincular código nuevo al código original y distribuir el conjunto bajo una licencia nueva (propietaria o libre).
+Sin embargo, la parte original tendrá que ofrecerse bajo su licencia original, normalmente con el código fuente.
+Es una forma de copyleft parcial.
+
+Las licencias más conocidas y utilizadas son las siguientes:
+
+* Permisivas: MIT, BSD, Apache 2.0
+* _Copyleft_: GPLv2 y GPLv3, AferroGPL3
+* _Copyleft_ suave: LGPL (versión 2 o 3), MPL (ahora versión 2), CPL (Common Public License)
+
+Una manera de entender la diferencia entre licencias permisivas y con _copyleft_ es que garantizan diferentes tipos de libertad:
+
+. Una licencia de software libre permisiva, como la licencia BSD o MIT, otorga más libertad a los desarrolladores, porque estos pueden incorporar y distribuir implementaciones del software bajo licencias tanto de software libre como propietarias.
+. Una licencia de software libre _copyleft_ transmite más libertad a los usuarios finales, porque estos siempre recibirán aplicaciones con su código fuente y bajo la licencia de software libre.
+
+== Ventajas
+
+El impacto de las licencias de software libre en el ámbito jurídico y práctico es importante.
+La consecuencia directa de usar software bajo una licencia de software libre (y ejercer los derechos concedidos bajo la misma) es la posibilidad de:
+
+[loweralpha]
+. Descargar y copiar el programa libremente (habitualmente de internet, de manera gratuita).
+. Realizar una instalación para probarlo y evaluarlo.
+
+. Modificarlo para adaptarlo a nuestras necesidades (o contratar un desarrollador-consultor para que lo haga).
+. Implementarlo en nuestro negocio o entidad en cuantos equipos sea necesario, y actualizarlo a medida que se lancen nuevas versiones.
+. Redistribuirlo (en internet o en formato CD/ DVD, etc.) para que otros puedan beneficiarse de cualquier modificación o mejora realizada.
+Todo ello sin tener que negociar una licencia con un vendedor, establecer contratos de soporte exclusivos o calcular los equipos o usuarios que van a utilizar el software en cuestión.
+
+Entre las principales ventajas indirectas del modelo jurídico del software libre, encontramos las siguientes:
+
+[loweralpha]
+. *Reutilización:* el derecho de poder ejecutar, modificar y redistribuir el software libre implica que existe un nivel mucho más alto de reutilización, tanto por lo que se refiere a componentes como a aplicaciones completas para el usuario final, lo que conlleva una mayor eficiencia.
+. *Independencia:* el libre acceso al código fuente, junto con el derecho de ejecutar y modificarlo, otorga al usuario un alto grado de independencia de su proveedor, algo que puede aprovecharse para exigir mayor calidad del servicio prestado.
+. *Colaboración:* estos mismos derechos de acceso, ejecución y modificación fomentan la creación colaborativa de software (entre desarrolladores que quizá nunca se han conocido) y la corrección de errores por parte de los usuarios.
+. *Orientación a servicios:* al no poder “vender licencias”, las empresas de consultoría y desarrollo de software libre suelen basar su negocio en la venta de servicios (de selección, de integración e implementación, de soporte y mantenimiento, de formación, de ofrecimiento de garantías, etc.).
+. *Comunidades:* los derechos concedidos por las licencias permiten el uso intensivo y la difusión masiva del software libre a través de las redes de internet (sobre todo a partir de repositorios como SourceForge o GitHub) y fomentan la creación de comunidades alrededor de los proyectos de software libre.
+
+Por el efecto de la distribución libre del software libre, este suele ser gratuito: no sirve de nada poner un precio, si mañana cualquier usuario puede legítimamente publicar el código (fuente y binario) en internet para su descarga sin coste, por cualquier internauta.
+Esto no impide que haya vendedores que ofrecen software libre “de pago”.
+Redhat Inc., por ejemplo, puede cobrar por su distribución de GNU/Linux (p.ej. Red Hat Enterprise), básicamente porque ofrece productos y servicios adicionales: garantías de funcionamiento, servicios de ayuda y soporte, aplicaciones administrativas o de instalación.
+
+****
+[quote, Gobierno de UK, https://www.gov.uk/design-principles#tenth]
+____
+Deberíamos compartir lo que hacemos siempre que podamos.
+Con los compañeros, con los usuarios, con el mundo.
+Compartir código, compartir diseños, compartir ideas, compartir intenciones, compartir errores.
+Cuantos más ojos estén observando un servicio mejor se vuelve, así se detectan los errores monumentales, se señalan mejores alternativas, se sube el listón.
+
+Gran parte de lo que hacemos únicamente es posible gracias al código de fuente abierta y la generosidad de la comunidad de diseño web.
+Deberíamos devolverlo.
+____
+****

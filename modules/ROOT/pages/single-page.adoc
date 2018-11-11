@@ -1,0 +1,49 @@
+// (1/4) CHANGE TOC POSITION AND LEVELS, IF NEEDED. ALSO :sectnums:
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+include::{partialsdir}/README.adoc[tag=metadata]
+
+ifndef::env-site,env-github[]
+:toc: left
+endif::[]
+:toclevels: 2
+
+= {_title}
+
+:sectnums!:
+
+[abstract]
+{_summary}
+
+:leveloffset: +1
+// (2/4) ADD BELOW THE LIST OF *UNNUMBERED* (e.g. PREAMBLE) CHAPTERS OR
+// SECTIONS. IMPORTANT: PUT A BLANK LINE BETWEEN INCLUDES.
+
+
+:sectnums:
+// (3/4) ADD BELOW THE LIST OF REGULAR CHAPTERS OR SECTIONS. IMPORTANT: PUT A
+// BLANK LINE BETWEEN INCLUDES.
+
+include::introduction.adoc[]
+
+include::general-principles.adoc[]
+
+include::free-software.adoc[]
+
+include::public-administration.adoc[]
+
+include::interoperability.adoc[]
+
+include::policy.adoc[]
+
+
+// (4/4) ADD BELOW THE LIST OF APPENDIXES. IMPORTANT: PUT A BLANK LINE BETWEEN
+// INCLUDES.
+
+// [appendix]
+// include::glossary.adoc[]
+
+[appendix]
+include::references.adoc[]

@@ -1,0 +1,27 @@
+= Principios generales de soberanía tecnológica
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+include::{partialsdir}/README.adoc[tag=metadata]
+
+El 6 de octubre de 2016 la Comisionada de Tecnología e Innovación Digital presentó el Plan Barcelona Digital 2017–2020: Transición hacia la Soberanía Tecnológica, cuya misión es “resolver los retos de la ciudad y de las personas a través de un uso más democrático de la tecnología. 
+Impulsar la innovación tecnológica y digital, por un gobierno más abierto, como herramienta para el desarrollo de una economía plural que fomente la transformación social y ambiental, y que favorezca el apoderamiento ciudadano”.
+
+El Plan, que se estructura en tres ejes, es una muestra de la voluntad de Barcelona de liderar una transición hacia la soberanía tecnológica, una soberanía tecnológica del gobierno y de la ciudadanía que permita hacerles partícipes para decidir y actuar sobre las prioridades y estrategias en el uso de la tecnología en la ciudad. 
+En particular, dentro del eje gobierno y ciudad, el Plan se centra en un gobierno abierto y eficiente, que se vale de la tecnología para la transformación y la innovación digital del sector público basada en software libre y unos estándares abiertos. 
+Además, se propone contar con una infraestructura de datos pública y abierta para desarrollar aplicaciones innovadoras basadas en datos.
+
+Según la Medida de Gobierno, la soberanía tecnológica del gobierno y de la ciudadanía permitirá decidir y actuar sobre las prioridades referentes al uso de la tecnología en la ciudad, decidir sobre cómo se desarrolla nuestra ciudad y recuperar el conocimiento de la gestión de la ciudad con herramientas tecnológicas –conocimiento que hasta ahora demasiado a menudo ha estado en manos de pocas empresas–. 
+Será una soberanía que permita dejar este conocimiento como legado para la propia ciudad. 
+Además, esta soberanía tecnológica, promovida con estándares abiertos, tiene que ser una herramienta para el bien común, que genere nueva economía y facilite también compartir conocimiento entre diferentes ciudades.
+
+Dentro del marco de este plan, se establece que, además de diseñar los servicios públicos como “servicios digitales por defecto”, poniendo la ciudadanía en el centro del proceso de diseño y aportando valor público, estos servicios tienen que construirse de forma más ágil y a la vez abierta, tienen que ser más sencillos, modulares e interoperables, para evitar dependencias con vendedores y proveedores de soluciones propietarias específicas; por eso hay que potenciar el uso del código abierto y de los estándares abiertos.
+
+Como actividad destacable, la Medida establece la “transición hacia el software libre y estándares abiertos”: la transición hacia el software libre y los estándares abiertos, estudiando las mejores prácticas europeas y españolas en este ámbito. 
+Es por eso por lo que se diseñará un plan de migración y se establecerá un código de buenas prácticas sobre tecnología que guíe la transformación interna, la reutilización y compartición de código con y de terceros y el desarrollo o utilización de soluciones de gobierno comunes.
+
+Por estas razones, la soberanía tecnológica dentro del Plan Barcelona Digital 2017–2020 se basa en tres principios fundamentales:
+
+* La transición y el uso de software libre
+* La interoperabilidad de servicios y sistemas
+* El uso de estándares abiertos

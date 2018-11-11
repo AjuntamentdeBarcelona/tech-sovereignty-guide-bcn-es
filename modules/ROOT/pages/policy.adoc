@@ -1,0 +1,613 @@
+= Política sobre soberanía tecnológica y directrices para su implementación
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+include::{partialsdir}/README.adoc[tag=metadata]
+
+== Principios y directrices
+
+La política referente a la soberanía tecnológica del Ayuntamiento se basa en los principios y directrices indicados en el Plan Barcelona Digital 2017–2020: Transición hacia la Soberanía Tecnológica, los Estándares de Servicios Digitales (ESD) y el xref:tech-practices:ROOT:aim-and-scope.adoc[Código de Prácticas Tecnológicas (CPT)].
+
+En líneas generales, estos principios consisten en:
+
+* El uso de estándares abiertos para todos los servicios digitales
+* La preferencia por el software libre y la reutilización de recursos informáticos
+* Un nuevo modelo relacional con proveedores y las comunidades de software libre
+* Una política flexible de propiedad intelectual
+
+Comentamos a continuación los principales elementos de esta política.
+
+La implementación de estos principios y directrices se llevará a cabo progresivamente a través de la realización de los proyectos de transformación digital y migración al software libre del Ayuntamiento e irá a cargo del IMI, que marcará el ritmo y permitirá la dedicación de recursos, la creación de infraestructura y la adquisición de competencias para tal fin.
+De esta forma, se realizará la gestión del cambio que supone la aplicación de esta política dentro del organismo de manera iterativa a través de proyectos concretos.
+Algunos proyectos y su extensión (por ejemplo, Decidim Barcelona, Sentilo, BIMA) ya cumplirán en mayor grado las directrices indicadas a continuación, otros lo irán consiguiendo con un proceso de implementación más progresiva.
+
+== Estándares abiertos e interoperabilidad
+
+Los servicios digitales del Ayuntamiento de Barcelona deberán implementarse con arquitecturas comunes y abiertas de servicios, información y tecnologías.
+Los servicios se construirán implementando soluciones comunes para la integración de sistemas y sus interfaces.
+Las soluciones utilizarán los estándares abiertos.
+
+[.policy]
+.Interoperabilidad
+****
+
+[.policy-summary]
+******
+Todos los servicios digitales del Ayuntamiento de Barcelona darán soporte a la interoperabilidad, basada principalmente en el uso de estándares y formatos abiertos.
+******
+
+[loweralpha]
+. Los requisitos de interoperabilidad de cada sistema, tanto la externa, que afecta a la ciudadanía, como la referente al intercambio de información en procesos internos, se implementarán en base a formatos y estándares abiertos, con la única excepción de sistemas ya desplegados cuya sustitución no esté todavía planificada.
+
+. Se pondrá especial énfasis en la interoperabilidad de cara al futuro: la que garantiza que los datos en poder del Ayuntamiento podrán ser utilizados (explotados, modificados y aumentados) con independencia de qué aplicaciones (y de qué proveedores) se usen en un futuro.
+
+. Cuando se necesite interoperar con sistemas ya desplegados y que usan formatos o estándares no abiertos, se estudiará la posibilidad de modificar dichos sistemas para adaptarlos al uso de estándares abiertos.
+
+. Las necesidades de interoperabilidad de cada sistema que se va a desarrollar o a adquirir se detallarán en los pliegos de la contratación.
+Se pueden dar dos situaciones distintas:
+* En caso de que una necesidad específica de interoperabilidad quede cubierta por un estándar abierto aceptado internacionalmente, los pliegos de contratación mencionarán dicho estándar por su nombre y versión.
+* Cuando una necesidad específica de interoperabilidad no pueda ser resuelta por un estándar existente, se dará en los documentos técnicos que acompañan a los pliegos de contratación una especificación completa de los datos, los protocolos, las interfaces, los formatos o los procesos que se van a utilizar.
+Esta especificación tiene que permitir su implementación sin recurrir a productos o proveedores específicos.
+
+. Como caso concreto de despliegue de estas directrices de interoperatividad, véase por ejemplo la Política de Gestión Documental.
+(http://ajuntament.barcelona.cat/arxiumunicipal/sites/default/files/InstruccioPoliticaGD_cat.pdf)[http://ajuntament.barcelona.cat/arxiumunicipal/sites/default/files/InstruccioPoliticaGD_cat.pdf]
+****
+
+[.policy]
+.Uso de estándares abiertos
+****
+
+[.policy-summary]
+******
+Los servicios digitales del Ayuntamiento utilizarán de forma obligatoria estándares abiertos y, en especial, aquellos contenidos en el catálogo de estándares de la Norma Técnica de Interoperabilidad (desarrollados bajo el Real Decreto 4/2010) o los estándares abiertos aceptados internacionalmente que actualicen, sustituyan o complementen estos estándares.
+Cuando no haya un estándar abierto aprobado para el formato requerido se presentará una propuesta del formato que se va a utilizar, atendiendo a lo establecido en la normativa aplicable y a los requisitos para estándares abiertos del IMI.
+******
+
+[loweralpha]
+. Es estándar abierto aquel que reúne las siguientes condiciones:
+* Que sea público y su utilización esté disponible de manera gratuita o a un coste que no suponga una dificultad de acceso.
+* Que tenga un uso y una aplicación que no estén condicionados al pago de un derecho de propiedad intelectual o industrial.
+
+. Los formatos y estándares abiertos serán concebidos como el canal estándar de intercambio de información con la ciudadanía, y no como un método alternativo o complementario de opciones no abiertas.
+En ningún caso se requerirá del ciudadano una solicitud expresa o gestión adicional para ejercer su derecho a utilizar formatos y estándares abiertos.
+
+. El Ayuntamiento no puede en ningún caso obligar a los ciudadanos a comprar o utilizar sistemas de proveedores específicos para acceder a los servicios públicos.
+Este hecho equivaldría a garantizar a dichos proveedores una situación de monopolio sancionado por la autoridad pública.
+****
+
+[.policy]
+.Identificación de formatos y estándares
+****
+
+[.policy-summary]
+******
+El IMI mantendrá listas públicas de formatos y estándares técnicos en uso clasificados como obligatorios, prioritarios y recomendados.
+******
+
+[loweralpha]
+. Para facilitar la especificación y la contratación de sistemas y soluciones, el IMI mantendrá una lista de estándares técnicos que deberán ser utilizados.
+. El IMI mantendrá esta lista actualizada, en relación tanto con la evolución de la normativa nacional como con la evolución de los estándares en el ámbito internacional en el seno de las correspondientes entidades de normalización.
+. Algunos estándares pueden ser obligatorios para ciertos usos y recomendados en otros casos.
+****
+
+[.policy]
+.Selección de estándares
+****
+
+[.policy-summary]
+******
+La elección de estándares seguirá un proceso abierto y transparente de elección en base a las necesidades de los usuarios, la flexibilidad, la promoción de la libre competencia y la libre colaboración y las implicaciones para la futura interoperabilidad.
+Este proceso deberá ser aprobado formalmente.
+Las áreas que tengan su propio marco legal seguirán estándares específicos (por ejemplo, Geodata).
+******
+
+[loweralpha]
+. Se recomienda seguir un proceso de selección formal, basado en la normativa nacional (RD 4/2010), el Marco Europeo de Interoperabilidad (EIF) y los métodos reconocidos a nivel internacional, como el proyecto europeo Common Assessment Method for Standards and Specifications (CAMSS, https://webgate.ec.europa.eu/fpfis/mwikis/idabc-camss/index.php/Main_Page[https://webgate.ec.europa.eu/fpfis/mwikis/idabc-camss/index.php/Main_Page]).
+
+. Los sectores específicos mantendrán sus propias listas.
+Por ejemplo, para Geodata, que tiene un marco muy regulado (http://www.bcn.cat/geoportal/es/estandards.html).
+****
+
+== Software libre y reutilización de recursos
+
+La política del Ayuntamiento respecto al software libre se establece para el mayor provecho de los beneficios del modelo de desarrollo del software libre, tanto de cara al objetivo general de soberanía tecnológica como por motivos económicos y de calidad tecnológica.
+Por ello, los principales elementos de este aspecto de la política de soberanía tecnológica del Ayuntamiento son:
+
+* Facilitar y promover el uso efectivo y eficiente del software libre dentro del Ayuntamiento.
+* Reutilizar software existente y facilitar la reutilización del software del Ayuntamiento por parte de terceros, tanto entre administraciones como por parte de otras personas y entidades (bajo licencias libres).
+* Migrar sistemas del Ayuntamiento a soluciones libres.
+* Contribuir y participar en comunidades de software libre, fortaleciendo en particular las comunidades locales.
+* Garantizar el respeto de los derechos del Ayuntamiento y de terceros, en especial de los desarrolladores y de los miembros de la comunidad de software libre.
+
+Al disponer del código fuente de las aplicaciones del Ayuntamiento junto con los derechos de reproducción, modificación y distribución inherentes a las licencias libres, se garantiza la independencia del Ayuntamiento frente a los proveedores específicos y el mantenimiento de cara al futuro y la sostenibilidad de los sistemas municipales.
+Asimismo, un sistema basado en software libre es particularmente idóneo cuando se construyen servicios que serán usados por varias entidades municipales y puedan ser compartidos con otras administraciones, así como con una comunidad más amplia de usuarios.
+El acceso público al código fuente también es una garantía de transparencia para sistemas particularmente importantes o sensibles, como por ejemplo sistemas de votación electrónica o de cálculo de impuestos.
+
+Dentro de estas líneas generales, los principales elementos de esta política, recogidos en el Código de Prácticas Tecnológicas, se exponen a continuación.
+Comentaremos cada elemento con más detalle, aportando explicaciones y orientaciones para su implementación.
+
+=== Directrices generales
+
+Los principios básicos de software libre del IMI para cumplir con los principios de soberanía tecnológica de la ciudad son:
+
+[loweralpha]
+. La compra pública de herramientas y sistemas dará preferencia al software libre.
+. Todos los proyectos de tecnología municipales que desarrollen software internamente o bajo contrato, en la medida de lo posible, harán que este esté disponible como software libre.
+. Para tal fin, los proyectos de desarrollo internos se basarán por defecto en tecnologías abiertas que permitan que el producto final sea liberado.
+. El uso del software libre se hará de forma progresiva para todos los sistemas y aplicaciones municipales a medida que se implemente el Plan de Migración a Software Libre del Ayuntamiento.
+
+Estos principios se concretan en las siguientes directrices recogidas en el xref:tech-practices:ROOT:aim-and-scope.adoc[Código de Prácticas Tecnológicas]:
+
+[.policy]
+.Adquisición
+****
+
+[.policy-summary]
+******
+La adquisición y contratación pública de herramientas y sistemas dará preferencia al uso de software libre para toda la arquitectura técnica de las aplicaciones y los servicios entregados, evitando dependencias de sistemas y software no libres.
+Se permitirá la entrega y el uso de herramientas y sistemas no libres solo en circunstancias excepcionales que se revisarán caso por caso, conforme con los criterios que se indican a continuación.
+******
+
+[loweralpha]
+. Los contratos de adquisición y desarrollo de servicios digitales, incluyendo la adaptación de sistemas ya existentes, deberán optar por soluciones y servicios basados en tecnologías libres.
+
+. Será aceptable el uso de software propietario únicamente en aquellos casos en que:
++
+--
+
+* no exista ninguna solución abierta que cumpla con los requisitos necesarios;
+* la adaptación de una existente hasta conseguir el cumplimiento de los requisitos no sea viable, y
+* la construcción de una nueva solución, que se entregará bajo licencia abierta, no sea viable.
+
+Entendiendo que la no viabilidad, tanto por este punto como por el justamente anterior, está basada en razones técnicas o en los recursos necesarios, o que el incremento en el plazo de tiempo en el que estará disponible la solución impida el éxito del proyecto.
+--
+
+. El proceso para determinar si la mencionada excepción es aplicable se detalla en el epígrafe “Preparación y anteproyectos”.
+
+. En aquellos casos en los que, de acuerdo con las condiciones excepcionales arriba mencionadas, no se pueda proponer una solución global completamente abierta, se favorecerá una arquitectura y una selección de componentes que minimicen las dependencias sobre elementos no libres.
+****
+
+[.policy]
+.Liberación
+****
+
+[.policy-summary]
+******
+Los proyectos de desarrollo de servicios digitales tanto internos como externos deberán desarrollarse desde sus inicios con vistas a su liberación, siguiendo las mejoras prácticas de desarrollo de software libre, y se basarán en tecnologías abiertas que permitan que el producto final pueda liberarse.
+Su documentación, diseño y otros elementos (sonidos, tipografías, etc.) también serán publicados bajo licencias abiertas.
+******
+
+[loweralpha]
+. La voluntad de publicación de los proyectos de software que se desarrollen, de forma interna o por encargo, exige tener en cuenta desde el inicio los estándares de calidad y las prácticas comunes de desarrollo de los proyectos de software libre con éxito.
+En el subapartado “Proyectos” se detallan algunos de los elementos que deberán reflejarse en los pliegos de contratación para garantizar estos requisitos.
+
+. Asimismo, para evitar barreras a la hora de la liberación, debe evitarse el uso de subcomponentes no libres y crear dependencias sobre componentes y herramientas de desarrollo no libres, siguiendo el resto de recomendaciones de este documento (véase especialmente el epígrafe “Desarrollo”).
+
+. El IMI establece y mantendrá un plan de liberación y de migración hacia el software libre, cuyo despliegue facilitará la implementación progresiva de las mejoras prácticas de desarrollo y uso de tecnologías abiertas en los proyectos de servicios digitales del Ayuntamiento.
+
+. Los criterios que se van a seguir para valorar la liberación de un proyecto incluyen: que el producto responda a una necesidad general (y no particular del Ayuntamiento de Barcelona), que en algún aspecto se compare favorablemente con otros proyectos libres ya existentes que resuelvan el mismo problema, que el Ayuntamiento pueda realizarlo de manera legítima de cara a los derechos de terceros, que el producto pueda ejecutarse sobre plataformas libres y que tenga la calidad técnica suficiente y la documentación necesaria para que sea usado por terceros.
+****
+
+[.policy]
+.Reutilización
+****
+
+[.policy-summary]
+******
+En la adquisición de software se incentivará la reutilización de soluciones ya existentes.
+En los desarrollos en que participe el Ayuntamiento se intentará, más allá de la publicación bajo licencias libres, ofrecer facilidades técnicas y organizativas para la reutilización por parte de terceros.
+En los casos en que no sea posible liberar el software propiedad del Ayuntamiento y de las entidades asociadas bajo licencias libres (por razones técnicas o legales), igualmente se pondrá a disposición de otras administraciones sin contraprestación y sin necesidad de convenio conforme a la normativa aplicable.
+******
+
+[loweralpha]
+. Siempre que sea posible, y tras la correspondiente búsqueda previa, los proyectos reutilizarán o extenderán herramientas libres ya existentes, para reducir costes de mantenimiento y fortalecer ecosistemas abiertos, antes de considerar la creación de alternativas paralelas.
+Esto permitirá en algunos casos reducir costes de desarrollo, y en cualquier caso favorece el fortalecimiento de los ecosistemas abiertos, la reducción de los costes de mantenimiento y la construcción de soluciones de mayor calidad y durabilidad.
+
+. Se dará prioridad a la reutilización de tecnologías y componentes libres ya en uso por parte del Ayuntamiento.
+Esto permite abaratar costes y generar consistencia en la experiencia del usuario.
+
+. Para facilitar la reutilización del código producido, será publicitado por parte del Ayuntamiento por medios que incluyan:
+* Un directorio de proyectos donde se expongan los principales proyectos del Ayuntamiento, con enlaces al repositorio del código, aunque este se encuentre en distintas plataformas, y a todos los elementos relacionados con el desarrollo y la gobernanza de los mismos.
+Este directorio se encuentra en línea en https://ajuntamentdebarcelona.github.io.
+* Un repositorio de código centralizado (que se detalla en el epígrafe “Desarrollo”).
+
+. Recordemos que la normativa vigente (Ley 40/2015, arts. 157-158) obliga a poner los sistemas de su propiedad a disposición de otras administraciones que lo soliciten, en las condiciones indicadas.
+****
+
+[.policy]
+.Proyectos mancomunados
+****
+
+[.policy-summary]
+******
+Cuando sea conveniente, se estudiará la posibilidad de colaborar con otras administraciones públicas y entidades en el desarrollo de proyectos tecnológicos de su interés, compartiendo los costes y favoreciendo la interoperabilidad.
+******
+
+[loweralpha]
+. La mutualización o mancomunidad consiste en la colaboración estrecha entre gobiernos municipales y otras administraciones o entidades para el desarrollo en común de herramientas para el beneficio de todos.footnote:[Véase, por ejemplo, el proyecto CommunesPlone: https://joinup.ec.europa.eu/community/osor/case/networks-effects-plone-belgium-and-beyond] Los participantes comparten necesidades y especificaciones, costes, recursos económicos y equipos de desarrollo, así como el código desarrollado.
+
+. Para favorecer la mancomunidad de proyectos se podrá utilizar la red de municipios Localret y otras redes en el ámbito nacional e internacional.
+
+. Para compartir la información necesaria con otras administraciones y entidades para promover la mancomunidad, el Ayuntamiento publicará periódicamente planes de adquisición de software (hoja de ruta) donde se definan las previsiones de compra o desarrollo para los siguientes meses o años.
+****
+
+=== Proyectos
+
+El uso de software libre y las correspondientes metodologías de desarrollo y tecnologías abiertas tiene implicaciones particulares para la preparación y gestión de proyectos de servicios digitales.
+
+Los anteproyectos (p. ej. diseños previos del sistema que se va a construir) son una pieza clave en el proceso de adquisición y contratación pública del IMI.
+Sus informes deberán siempre incluir la consideración de opciones tecnológicas basadas en tecnologías abiertas.
+
+Estos principios se concretan en las siguientes directrices:
+
+[.policy]
+.Preparación y anteproyectos
+****
+
+[.policy-summary]
+******
+En la fase de preparación de contratos se debe demostrar que se ha realizado una búsqueda exhaustiva de posibles soluciones ya existentes y reutilizables, tanto en el ámbito nacional como en repositorios públicos internacionales.
+******
+
+[loweralpha]
+. La fase de preparación estudia el mercado y establece las especificaciones tecnológicas y, en su caso, las tecnologías recomendadas para futuros proyectos municipales de desarrollo o implantación.
+Frecuentemente esta preparación se realiza dentro del alcance de un anteproyecto.
+
+. Deberán buscarse alternativas en, al menos, los repositorios de software libre siguientes: GitHub, SourceForge, https://www.openhub.net/[https://www.openhub.net/] JoinUp y el CTT__,__ conforme lo indicado en el RD 4/2010 y la Ley 40/2015.
+
+. En el caso de proponer soluciones basadas en software propietario, se deberá demostrar que se cumplen las condiciones excepcionales enunciadas en el epígrafe “Adquisición” y que, por tanto, el uso de software propietario es la única opción viable.
+Para ello el anteproyecto deberá incluir un informe específico que:
+* Demuestre la calidad y el rigor de la prospección hecha de soluciones basadas en software libre.
+El propio contrato del anteproyecto puede mencionar algunas de las alternativas que es obligatorio estudiar si el IMI tiene conocimiento de las mismas.
+* Demuestre la valoración que se haya llevado a cabo respecto a la opción de construcción de nuevas soluciones, incluyendo una estimación de su coste.
+* Incluya una simulación de qué requisitos son los que obligan a incorporar software propietario y a qué requisitos o funciones se debería renunciar para construir una solución alternativa sin ningún software propietario.
+* Especificar el posible impacto en la interoperabilidad del sistema con el resto de sistemas y plataformas y el posible _vendor lock-in_ que pueda generar.
+También tendrá que proponer acciones para mitigar estos efectos.
+* En el caso de que la solución propuesta con software propietario imponga restricciones de cualquier tipo a la construcción o a la evolución de otros sistemas de información o plataformas técnicas en base a soluciones libres, este informe justificativo del uso de software propietario deberá tener en cuenta todas las posibles repercusiones.
+
+. Se trabajará con vistas a establecer un comité de expertos en tecnologías libres que pueda tanto asesorar en la elaboración y valoración de los anteproyectos como determinar en caso de que se propongan tecnologías propietarias para la admisibilidad de las condiciones excepcionales alegadas.
+
+. El anteproyecto deberá estudiar la madurez, el estado de mantenimiento y la sostenibilidad esperada de los componentes de software propuestosfootnote:[Por ejemplo, siguiendo el modelo de la Open Preservation Foundation, en línea en http://openpreservation.org/technology/principles/software-maturity/].
+En un futuro el IMI puede poner a disposición de los proyectos equipos y recursos para brindar apoyo a esta labor.
+
+. Una función importante de la fase de preparación será, cuando se preseleccionen proyectos libres para ser ampliados o adaptados, investigar los requisitos legales y técnicos para participar en dichos proyectos.
+Para ello se podrá contactar con los mantenedores y los titulares legales de estos proyectos, o con desarrolladores destacados de los mismos.
+En el resultado de esta fase se incluirá una descripción de las obligaciones que derivan de estos requisitos, para especificarla en el pliego de la contratación.
+
+. En los proyectos que están sujetos a regulación armonizada, se debe demostrar en particular que la búsqueda de soluciones de implementación reutilizables se ha realizado como mínimo en el ámbito de la UE.
+****
+
+[.policy]
+.Especificaciones técnicas y funcionales
+****
+
+[.policy-summary]
+******
+Los proyectos propuestos no deben incluir ninguna especificación que impida proponer soluciones con tecnología abierta y no deben mencionar productos ni proveedores específicos salvo en casos de compatibilidad con tecnologías existentes, conforme a criterios indicados en la _Guía sobre soberanía tecnológica_.
+La arquitectura, los requerimientos de interoperabilidad y el derecho y la capacidad de poder modificar y reutilizar el software de los sistemas y servicios serán considerados características y prescripciones técnicas.
+******
+
+[loweralpha]
+. El desarrollo orientado al software libre no se implementará simplemente incluyendo este término, sino a través de la claridad en los requisitos funcionales, técnicos y legales que permiten y hasta promueven el uso de tecnologías abiertas.
+
+. Se evitarán aquellos requisitos técnicos que determinen soluciones específicas, pero que pueden no ser necesarios en un análisis más profundo de las necesidades subyacentes.
+
+. Siempre que sea posible, en los pliegos de contratación se dará una especificación funcional y técnica detallada del sistema que se necesita desarrollar o adquirir.
+Esto no va en detrimento de que durante el desarrollo, y en aplicación de una metodología ágil e iterativa, estas especificaciones puedan refinarse, enriquecerse o adaptarse de común acuerdo con el cliente.
+
+. En general, en los pliegos de contratación de nuevas soluciones no se debe nombrar un producto (y mucho menos un proveedor) de software particular y, en todo caso, deberá agregar la frase “o equivalente”.
+
+. Se permitirá la excepción (es decir, la especificación de criterios que impiden la oferta de tecnologías libres o la referencia a productos privativos particulares) únicamente por necesidad de compatibilidad con tecnologías preexistentes cuya sustitución requiera una planificación a más largo plazo (como se especifica en el epígrafe “Preparación y anteproyectos”).
+
+. No obstante, la compatibilidad con productos privativos contratados en concursos anteriores no constituye una circunstancia excepcional admisible en general, ya que eso perpetuaría la dependencia de un solo proveedor y evitaría poder tomar decisiones de compra imparciales y basadas exclusivamente en las necesidades del Ayuntamiento.
+
+. En cambio, no supone ningún problema citar en los pliegos productos con licencia libre específicos, porque en ese caso no se estaría contrayendo ninguna dependencia con un proveedor específico.
+****
+
+[.policy]
+.Cálculo de costes
+****
+
+[.policy-summary]
+******
+Toda decisión sobre la adquisición de tecnologías tomará en cuenta el coste total del sistema sobre la vida útil del servicio a largo plazo (TCO), incluyendo los costes ocultos (p. ej. costes de salida para remplazar una tecnología en un futuro cuando los formatos o las interfaces no sean estándares) así como los beneficios netos sociales.
+******
+
+[loweralpha]
+. Los cálculos económicos deben ser específicos a las necesidades del proyecto pero también deben tener en cuenta los _spill over effects_ (costes y beneficios secundarios), por ejemplo, debido a la reutilización de tecnología por parte de las administraciones públicas y la adquisición de competencias internas.
+
+. Se deberán tener en cuenta los costes ocultos (p. ej. costes de salida, en caso de implementar soluciones propietarias o no estándares), para así incentivar la contratación de productos que cumplan los estándares abiertos y presenten una adecuada interoperabilidad en el futuro.
+
+. Las decisiones también deberán tener en cuenta la maximización de los beneficios netos económicos y sociales para la economía local y la sociedad en general en el medio y largo plazo.
+****
+
+[.policy]
+.Contratación de proyectos y servicios
+****
+
+[.policy-summary]
+******
+Los contratos para proyectos nuevos o ampliaciones de proyectos existentes utilizarán cláusulas modelo basadas en estos principios, incluso para anteproyectos en los que se realiza una preselección de tecnologías, así como en acuerdos marco de contratación o en la contratación por lotes.
+Estas cláusulas exigirán el uso de soluciones basadas en tecnologías libres, salvo casos excepcionales que se detallan en el epígrafe “Adquisición”.
+******
+
+[loweralpha]
+. El IMI elaborará estas cláusulas modelo para la _Guía de contratación tecnológica_ y las incluirá en forma de anexo.
+
+. Las cláusulas no deberán incluir condiciones contradictorias con los principios indicados aquí, por ejemplo, el mantenimiento de la confidencialidad sobre el código publicado en un repositorio público (como software libre o no).
+****
+
+[.policy]
+.Mejores prácticas de desarrollo
+****
+
+[.policy-summary]
+******
+El desarrollo de infraestructuras y servicios digitales seguirá las mejores prácticas en metodologías de desarrollo de software libre, utilizando por defecto los métodos _agile_ aplicados en el IMI.
+******
+
+[loweralpha]
+. El código fuente será gestionado de forma efectiva en sistemas modernos de control de versiones que permitan recomponer el historial de las contribuciones, una gestión sencilla de las contribuciones ajenas, la existencia de varias ramas (principal, mantenimiento, ramas específicas para desarrollar funcionalidades, etc.) y la bifurcación del proyecto en caso necesario.
+
+. El Ayuntamiento dispondrá de un espacio de organización propio en una plataforma en línea de publicación y gestión de proyectos de software.
+Este espacio contendrá un repositorio para cada proyecto de software en los que se haya participado (directamente o a través de contratos), incluso si el desarrollo se realiza en otra plataforma o en otro repositorio gestionado por otra entidad (en este caso el espacio del Ayuntamiento contendrá un espejo del repositorio principal).
+
+. Los proyectos iniciados por el Ayuntamiento dispondrán de un sistema público de gestión de incidencias de desarrollo (_issue tracking)_ donde cualquier persona podrá informar sobre deficiencias _(bug reporting_) y realizar un seguimiento de su evolución.
+El sistema también permitirá ofrecer contribuciones y realizar un seguimiento de su integración, así como sugerir mejoras o adaptaciones.
+
+. El código, incluyendo los comentarios, estará en inglés.
+Existirá siempre un foro de resolución de incidencias en inglés.
+Opcionalmente, algunos proyectos pueden decidir establecer plataformas de participación en el desarrollo donde el catalán y el castellano sean las lenguas preferentes.
+
+. Los proyectos también contarán con un sistema de integración continua que permita ejecutar baterías de pruebas automatizadas y que muestre información pública de los resultados de las mismas.
+****
+
+[.policy]
+.Mantenimiento del código y de documentación
+****
+
+[.policy-summary]
+******
+Durante la vigencia de su contrato, los proveedores de servicios de desarrollo de los sistemas informáticos deberán colaborar con el IMI en mantener el código disponible en sistemas adecuados de control de versiones.
+Asimismo, todo sistema y servicio deberá estar correctamente documentado para administradores, usuarios y desarrolladores, incluyendo las instrucciones necesarias para la instalación, el despliegue y la configuración del servicio en entornos libres y abiertos.
+******
+
+[loweralpha]
+. En los pliegos se establecerá como condiciones de ejecución el periodo y la forma en que el contratista está obligado a mantener y soportar el código.
+
+. Los contratos que incluyan la operación y administración de un servicio establecerán que el código que se va a ejecutar tiene que haberse publicado previamente en el repositorio principal del proyecto, en una rama destinada a tal efecto (que puede ser la rama principal).
+Los repositorios de proyectos libres o liberados serán públicos.
+
+. Los avisos de deficiencias (_bugs_) y su resolución se realizarán también de manera visible y transparente, con los medios descritos en el epígrafe “Desarrollo”.
+
+. Todos los proyectos tendrán una política de versiones explícita descrita en su repositorio o con un enlace desde allí (por ejemplo, SemVer).
+
+. El repositorio público deberá incluir la documentación adecuada para el despliegue y mantenimiento del código (p. ej. fichero _Readme_ con una descripción del proyecto, los requisitos para usar el software, una referencia a las instrucciones de instalación, la licencia utilizada, etc.).
+
+. Los pliegos establecerán la documentación de usuario (incluyendo la administración del servicio) que deberá entregar el contratista y sus características técnicas, idioma, etc.
+Esta documentación también se hará pública y estará cubierta por una licencia, que se fijará en los pliegos, por defecto la CC0 o la CC-BY-SA 3.0.
+
+. Todos los ficheros contenidos en el repositorio referidos a documentación, incluyendo la documentación de usuario si esta se encuentra en el repositorio de código, usarán el inglés como idioma y estarán formateados en texto plano o en algún lenguaje de marcas ligero como ReStructuredText, Markdown u Org Mode.
+****
+
+=== Un nuevo modelo relacional con los proveedores y la comunidad
+
+La política de soberanía tecnológica de la ciudad prevé evitar dependencias de un solo proveedor, lo cual también es un factor clave para aumentar la capacidad de innovación en los servicios públicos.
+En la medida de lo posible la contratación de servicios digitales debe aumentar la diversidad de proveedores.
+
+Los desarrollos de software libre más innovadores y efectivos requieren una gestión efectiva de una comunidad de interesados que participen y contribuyan a la evolución y sostenibilidad del software.
+El IMI seguirá los principios de comunidad sostenible, abierta, transparente y participativa.
+
+La gobernanza de la comunidad y la gestión técnica de estos proyectos, incluida la aprobación de código para su incorporación al proyecto y la definición de requisitos y su _Roadmap_, son aspectos que hay que tener en cuenta.
+Se promoverá la diversidad de contribuciones, pero para proyectos críticos el IMI mantendrá el control efectivo de los desarrollos técnicos financiados por fondos públicos.
+
+Estos principios se concretan en las siguientes directrices:
+
+[.policy]
+.Colaboración con comunidades libres y otras entidades
+****
+
+[.policy-summary]
+******
+Los proyectos propuestos estudiarán las posibilidades de colaboración con las comunidades tecnológicas y de software libre, en especial con comunidades locales.
+También se favorecerá la colaboración con otras entidades e instituciones interesadas, para promover la innovación social y los productos y las competencias tecnológicos locales.
+******
+
+[loweralpha]
+. En los pliegos de contratación (proyectos y anteproyectos) se puede establecer como un criterio de valoración la existencia y la posibilidad de colaboración con una comunidad de desarrolladores y usuarios para las tecnologías que se van a seleccionar.
+
+. En la ejecución del proyecto, se promoverá la colaboración con las comunidades de desarrolladores y usuarios, en especial si estas son comunidades locales, a través de procesos para el fomento del despliegue y uso del software, seminarios, conferencias, reuniones técnicas (_hackfests_, etc.) así como un proceso para la recepción de contribuciones de terceros y su validación (_community management_ y __release management —__véase el apartado sobre “Contribuciones externas”).
+
+. Además de los canales estándar de colaboración con comunidades de desarrollo “en abierto” (especificados bajo el epígrafe “Desarrollo”), para ciertos proyectos estratégicos también se puede obligar a establecer mecanismos específicos dirigidos a las comunidades locales de desarrolladores y usuarios.
+Estos pueden ser herramientas digitales de colaboración (foros, _wikis_, listas de correo) o presenciales (actos, _hackfests_), y el idioma principal de uso puede ser el catalán o el castellano.
+****
+
+[.policy]
+.Sostenibilidad y gobernanza
+****
+
+[.policy-summary]
+******
+Los proyectos que generen sistemas y herramientas completas libres a través de un servicio de desarrollo promovido y financiado por el Ayuntamiento deberán incluir un modelo de sostenibilidad y de gobernanza del proyecto.
+Este modelo incluirá, entre otros aspectos, una aproximación a la definición de la comunidad, las herramientas de apoyo de la misma, las actividades de comunicación y _marketing_, los procesos para la inclusión de contribuciones externas, la gestión de la propiedad intelectual y la sostenibilidad de la herramienta más allá del propio proyecto para el Ayuntamiento.
+******
+
+[loweralpha]
+. La definición de la “comunidad” de un proyecto puede incluir: otros ayuntamientos y administraciones públicas, sectores especialistas como el de Geodata o de bibliotecas, organizaciones o entidades relacionadas con las tecnologías del proyecto.
+
+. La estructura de gobernanza de los proyectos incluye la determinación de:
+* La política sobre dependencias: quién y cómo decide cuáles son admisibles.
+* La política de contribuciones: quién y cómo decide qué aportaciones son incluidas en el producto.
+* Las relaciones y órganos de gestión compartidos con otras entidades como empresas u otras administraciones públicas.
+* La política de comunicación y _marketing_.
+
+. Para proyectos de envergadura se recomienda adoptar (o escribir) un código de conducta (en inglés) con un enlace desde la página web del proyecto y desde el fichero _Readme_ del repositorio.
+Dicho documento sirve para establecer las normas de participación en los canales de comunicación telemáticos del proyecto, así como las reglas de conducta para posibles actos presenciales.
+****
+
+[.policy]
+.Contribuciones externas
+****
+
+[.policy-summary]
+******
+Se promoverá que actores externos puedan realizar contribuciones a los proyectos liderados o liberados por el Ayuntamiento.
+Se establecerán reglas concretas adaptadas a cada caso para la gestión de los derechos sobre estas contribuciones a fin de asegurar el respeto de los derechos de terceros y la normativa aplicable.
+******
+
+[loweralpha]
+. Las recomendaciones en este epígrafe están orientadas a asegurar, para los proyectos liberados por el Ayuntamiento, los siguientes objetivos:
+* Integrar el máximo de contribuciones con valor y calidad (tanto de código, resolución de errores, etc. como de documentación) ajenas a las actividades del Ayuntamiento y a sus contratistas.
+* Asegurar que todas las contribuciones tienen la calidad técnica suficiente.
+* Asegurar la integridad jurídica de las contribuciones (asegurar que no se incluye erróneamente la propiedad intelectual de terceros).
+* Priorizar las contribuciones que favorecen la consecución de los objetivos del Ayuntamiento de Barcelona o del resto de entidades que patrocinan el proyecto y, en cualquier caso, aceptar solamente aquellas que no los entorpezcan.
+
+. Todos los proyectos liberados deberán tener en su repositorio los documentos necesarios para facilitar el desarrollo y despliegue del código por parte de terceros (siguiendo las prácticas de proyectos libres: p. ej. ficheros _Readme_, _Install_, _Contributing_, _Roadmap_, etc.).
+
+. La gestión de las contribuciones incluirá un protocolo para contribuciones y la gestión de los derechos sobre las mismas, en especial para asegurar que no se incluye erróneamente la propiedad intelectual de terceros.
+
+. Para que los requisitos para integrar código sean estrictamente técnicos, conviene reducir las barreras burocráticas a las contribuciones.
+A tal efecto, contarán con instrucciones sobre estilos y estándares de programación del proyecto y sobre la realización de contribuciones desde la perspectiva jurídica (como se explica en los epígrafes “Propiedad intelectual” y “Gestión legal”).
+
+. Para que se tenga plena trazabilidad de las contribuciones y que se puedan eliminar, en caso de que sea necesario, aquellos fragmentos de código que pudieran suponer un riesgo jurídico, todas las contribuciones que finalmente se incorporen al producto deberán ir firmadas por alguna persona autorizada por los mantenedores siguiendo un protocolo de certificado de origen para desarrolladores (Developers Certificate of Origin, DCO) como el que usa el núcleo de Linux y otros proyectos libres.
+****
+
+[.policy]
+.Retorno a la comunidad y compatibilidad en un futuro
+****
+
+[.policy-summary]
+******
+Los proyectos que mejoren o transformen un producto de software libre existente, realizados tanto por personal del Ayuntamiento como por proveedores, en la máxima medida posible contribuirán a estas mejoras y a cualesquiera correcciones _upstream_ del proyecto original.
+Asimismo, los proyectos garantizarán, en la medida de lo posible, la compatibilidad en un futuro, de modo que el software adaptado para el Ayuntamiento de Barcelona minimice los posibles problemas de actualización y mantenimiento.
+******
+
+[loweralpha]
+. _Upstreaming_ significa realizar contribuciones de código (desarrollado por y para el Ayuntamiento) en base a proyectos libres ya existentes, para que se incluya en su _code base_ y así formar parte del proyecto libre.
+
+. La razón de asumir el coste extra que pueda suponer, a corto plazo, el esfuerzo de contribuir al proyecto original (_upstream_) es que, una vez los cambios hayan sido integrados, el mantenimiento de las nuevas funcionalidades o mejoras corre a cargo de toda la comunidad que sostiene el proyecto.
+También así se garantiza la calidad de los cambios introducidos y la compatibilidad con futuras modificaciones realizadas por terceros
+
+. El compromiso de intentar contribuir de un modo _upstream_ en las ampliaciones y modificaciones realizadas al software de proyectos libres ya existentes se concreta en los siguientes puntos, que se especificarán en las condiciones de ejecución de cada proyecto relevante:
+* Se asumirán como vinculantes para el contratista los criterios de calidad de la comunidad del proyecto original, incluyendo las directrices de codificación (_coding standards_).
+* Los propios contratistas serán responsables de ofrecer a la comunidad las modificaciones implementadas siguiendo los canales y protocolos descritos por ésta.
+* Se establecerán las cláusulas sobre propiedad intelectual y licencia en concordancia con las expectativas del proyecto original.
+* Los desarrolladores contratados o subcontratados por el Ayuntamiento deberán firmar un acuerdo de licencia (Contributor License Agreement, CLA) o DCO con los titulares del proyecto si estos así lo requieren.
+
+. En los proyectos de software libre que dispongan de un código de conducta escrito, se recomienda establecer cláusulas en los pliegos que permitan sancionar a los contratistas que lo incumplan.
+****
+
+=== Política flexible de propiedad intelectual
+
+Respecto a la propiedad intelectual, el Ayuntamiento concibe tanto la figura tradicional de la cesión de derechos sobre desarrollos nuevos al Ayuntamiento como la opción de dejar la propiedad intelectual del desarrollo al proveedor, siempre que este libere el código bajo licencia libre.
+Eso fomenta la industria local y la reutilización de recursos.
+
+Por regla general, se evitará la acumulación de propiedad intelectual en el IMI y, si la tuviera, se propiciará que se pueda liberar o se permitirá la reutilización del software o de las soluciones adquiridas.
+Por lo que, cuando sea conveniente, la propiedad intelectual sobre los desarrollos no será transferida completamente al IMI por los proveedores y otros contribuyentes, de modo que estos retendrán la capacidad de reciclar desarrollos para otros proyectos.
+Siempre que el IMI pueda reutilizar, combinar y modificar a voluntad el software generado y, en su caso, liberarlo.
+
+Para facilitar y agilizar la liberación y reutilización de aplicaciones, cada proyecto tecnológico que gestione el IMI establecerá un marco legal claro para gestionar los derechos de propiedad intelectual e industrial, el uso de componentes bajo diferentes licencias y las contribuciones al proyecto, e identificará claramente el titular de los derechos sobre el software y el alcance y las características de las cesiones de derechos.
+
+Las contribuciones externas fuera del contrato de suministro o servicio requerirán un proceso formal para instrumentar la cesión de derechos al Ayuntamiento, ya sea mediante un acuerdo de cesión de derechos, en la forma de la licencia del proyecto o un acuerdo de licencia sobre contribuciones (llamado CLA), ya sea mediante una manifestación sobre derechos (DCO), para asegurar que no se incluya erróneamente la propiedad intelectual de terceros.
+
+Los proyectos deberán utilizar una herramienta centralizada del IMI para gestionar tanto las licencias generadas como aquellas de los componentes usados en el desarrollo.
+
+Estos principios se concretan en las siguientes directrices:
+
+[.policy]
+.Propiedad intelectual en el software
+****
+
+[.policy-summary]
+******
+Los proyectos del Ayuntamiento establecerán un marco legal para determinar de forma clara los derechos de propiedad intelectual de los desarrollos realizados y su gestión.
+Dependiendo del caso, los acuerdos establecerán el modelo de propiedad elegido, incluyendo la opción de ceder los derechos al Ayuntamiento o al IMI, dejarlos en manos del proveedor o cederlos a entidades que gestionen el código relevante para el proyecto, siempre que se asegure, para proyectos liberados, su disponibilidad bajo licencia libre.
+******
+
+[loweralpha]
+. Cada proyecto definirá qué personas u organizaciones serán titulares de los derechos de explotación del código.
+
+. Por regla general, se evitará la acumulación de propiedad intelectual en el IMI.
+En situaciones en las que la propiedad intelectual de los desarrollos no será transferida al IMI, los proveedores podrán retenerla y tener la capacidad de reciclar desarrollos para otros proyectos, pero en todo caso el Ayuntamiento podrá utilizar, combinar y modificar el software generado y permitir su liberación u otra forma de reutilización.
+
+. En algunos casos, el IMI deseará mantener un control efectivo de los desarrollos técnicos financiados por fondos públicos.
+Las contribuciones externas fuera de contrato requerirán un Contributor License Agreement (CLA)footnote:[Véase por ejemplo en http://harmonyagreements.org/.].
+No obstante, existen otras opciones para la correcta gestión de las contribuciones (establecer un DCOfootnote:[DCO__:__ Developers Certificate of Origin. Por ejemplo, https://developercertificate.org/] o la realización de contribuciones bajo la licencia del proyecto o bajo una licencia más permisiva).
+
+. Independientemente de la política respecto a los derechos de explotación, que puede variar de un proyecto a otro, se reconocerá la autoría de todos los contribuidores en un fichero _Authors_ en la raíz del repositorio público.
+****
+
+[.policy]
+.Gestión legal de los proyectos de desarrollo de software
+****
+
+[.policy-summary]
+******
+Los proyectos deberán establecer procesos y documentación para gestionar los aspectos legales vinculados con la propiedad intelectual y las licencias de software (en particular para las contribuciones y las licencias de los componentes usados en el desarrollo y otras dependencias de software, asegurando que todas las licencias involucradas sean compatibles) y para ello utilizar buenas prácticas y herramientas estándares o de uso generalizado en el sector, de tal forma que se garantice la trazabilidad e integridad del código.
+******
+
+[loweralpha]
+. La correcta gestión legal facilitará el cumplimiento de la normativa y los derechos de terceros durante el proyecto y después de él.
+
+. En los pliegos se deberá garantizar la integridad jurídica de las contribuciones realizadas al repositorio de código, es decir, que en ningún momento se deberá incluir código del que no se sea autor ni se tenga permiso para utilizar bajo las condiciones exigidas por la licencia.
+Se recomienda seguir una política de firma de los _commit_ mediante cesión de derechos o DCO.
+
+. También será obligación de los contratistas establecer la lista completa de componentes de terceros incluidos en el proyecto, advertir al IMI cada vez que se introduzca una nueva dependencia de software en el proyecto y analizar si el nuevo paquete del que se pretende depender tiene una licencia libre compatible con el resto del proyecto.
+
+. En el repositorio de código deberá constar un fichero _License_ con el texto completo de la licencia que se pretende utilizar para el proyecto.
+Si la licencia obliga a ello, en cada fichero de código se especificará la licencia bajo la que se distribuye y las personas o entidades que detentan los derechos de explotación del mismo (_copyright notice_).
+
+. Se promoverá el uso de estándares y mejores prácticas como SPDX y OpenChain para la mayor transparencia entre proveedor y Ayuntamiento y su conformidad con las mejores prácticas legales del sector.
+
+. El IMI designará a un responsable de gestionar los aspectos legales, en aras de asegurar el cumplimiento de las obligaciones legales asociadas con las licencias libres utilizadas y otros temas legales (propiedad intelectual, marcas, gobernanza de las comunidades) como FOSS Compliance Officer.
+****
+
+[.policy]
+.Licencia para la liberación de software
+****
+
+[.policy-summary]
+******
+El software generado en el marco de los proyectos de servicios digitales del Ayuntamiento, incluyendo el software resultado de contratos de servicios, será puesto a disposición pública bajo una licencia libre que cumpla la normativa aplicable.
+El Ayuntamiento establecerá criterios y requisitos para determinar qué licencia utilizar en cada proyecto.
+******
+
+[loweralpha]
+. La licencia elegida deberá cumplir los requisitos del RD 4/2010.
+
+. La licencia dependerá del tipo de desarrollo y del marco de creación, en base a criterios que incluyen el grado de permisividad o reciprocidad (_copyleft_), la compatibilidad interna y externa con otros proyectos, si se trata de plataformas _software as a service_, etc.
+
+. En la medida de lo posible, el Ayuntamiento debe evitar la proliferación de licencias, de modo que se establecerá un abanico de licencias recomendadas y compatibles entre ellas para la infraestructura tecnológica del Ayuntamiento.
+
+. Cuando se realicen ampliaciones o adaptaciones de proyectos libres ya existentes, se adoptará la licencia que estos mismos tengan.
+
+. En otros casos, como una condición de ejecución del contrato (vinculante para el contratista), se podrá establecer de antemano la licencia libre que debe cubrir todo el código del proyecto.
+
+. En concursos para proyectos nuevos de desarrollo se puede o bien requerir una licencia específica o bien dejar margen a las ofertas para proponer la licencia que se va a usar, en reconocimiento de las legítimas políticas comerciales y de licenciamiento que pueden tener diferentes proveedores (siempre que se trate de licencias libres).
+En cualquier caso, los criterios para elegir o valorar licencias en la adjudicación tendrán en cuenta que la licencia seleccionada:
+* _Debe estar en el listado de licencias de la Open Source Initiative, OSI.
+No se recomienda en absoluto la redacción de licencias ad hoc ni el uso de licencias de dominio público.
+Tampoco es recomendable el uso de licencias muy infrecuentes o desconocidas._
+* _Debe proteger al Ayuntamiento respecto a responsabilidades u obligaciones de soporte y garantía relacionadas con versiones redistribuidas del software._
+* _Se recomienda elegir una licencia que favorezca la integración e interacción del proyecto con su ecosistema tecnológico (por ejemplo, si se trata de un componente Python, elegir una licencia habitual en la comunidad Python)._
+* _Si todas las demás condiciones son iguales, se recomienda una licencia con_ copyleft _(incluso_ copyleft _de red si se trata de una aplicación distribuida), puesto que es lo que estima oportuno la ley española y sirve para evitar que un producto desarrollado con fondos públicos termine siendo privatizado_.
+
+. En el IMI habrá un equipo especializado para asesorar a los proyectos en aspectos legales y relativos a licencias y determinar las obligaciones de cada licencia usada.
+****
+
+[.policy]
+.Marcas
+****
+
+[.policy-summary]
+******
+En caso de registrar una marca comercial para designar un proyecto de software liberado por el Ayuntamiento, este establecerá una política pública de uso de la misma que permita a los miembros de la comunidad de usuarios y desarrolladores utilizarla en el marco de las actividades de esta comunidad.
+******
+
+[loweralpha]
+. Para proyectos que se van a liberar, habrá que evitar que el nombre del mismo sea idéntico o similar a proyectos libres ya existentes y, en particular, a marcas ya registradas sobre productos y servicios en el ámbito de las tecnologías de la información.
+
+. La marca sirve para distinguir el proyecto y evitar imitaciones o proyectos similares (hasta _forks_), que se aprovechan de la reputación y el esfuerzo del proyecto original patrocinado o de propiedad del Ayuntamiento.
+
+. La política de uso de la marca permitirá el uso del software del proyecto por parte de la comunidad y de terceros que adopten o implementen el software y restringirá el uso comercial por parte de terceros contrario a las normas de la comunidad y del propio Ayuntamiento.
+****
