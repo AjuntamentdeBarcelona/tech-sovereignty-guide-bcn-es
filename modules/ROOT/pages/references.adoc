@@ -15,14 +15,14 @@ include::{partialsdir}/README.adoc[tag=metadata]
 _Free Software Definition_, en línea en _https://www.gnu.org/philosophy/free-sw.es.html_, y
 _What is copyleft_, en línea en _https://www.gnu.org/licenses/copyleft.es.html_
 
-*OPEN SOURCE INITIATIVE:* 
+*OPEN SOURCE INITIATIVE:*
 
 _Open Source Definition_, en línea en _https://opensource.org/osd_, y _Frequently Asked Questions,_ en línea en _https://opensource.org/faq_
 
 *UNIÓN EUROPEA:*
 
 _Communication COM(2013) 455 final: Against lock-in: building open ICT systems by making better use of standards in public procurement_.
-En línea en _http://ec.europa.eu/newsroom/dae/docu-ment.cfm?doc_id=2327_
+En línea en _http://ec.europa.eu/newsroom/dae/document.cfm?doc_id=2327_
 
 _SWD(2013) 224 final. Guide for the procurement of standards-based ICT — Elements of Good Practice._ En línea en _http://ec.europa.eu/newsroom/dae/document.cfm?doc_id=2326_
 

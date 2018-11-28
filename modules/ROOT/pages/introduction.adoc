@@ -12,18 +12,18 @@ include::{partialsdir}/README.adoc[tag=metadata]
 
 == Objetivo
 
-Este documento constituye un documento de apoyo para el xref:tech-practices:ROOT:aim-and-scope.adoc[Código de Prácticas Tecnológicas] que implementa de forma práctica el concepto de la *soberanía tecnológica*, expandiendo los principios que guían la nueva dirección del xref:glossary:ROOT:glossary.adoc#imi[Instituto Municipal de Informática de Barcelona (IMI)] en materia de tecnología e innovación: interoperabilidad, agilidad, reutilización, ética y apertura de conocimientos y tecnologías.
+Este documento constituye un documento de apoyo para el xref:{lang}/tech-practices:ROOT:aim-and-scope.adoc[Código de Prácticas Tecnológicas] que implementa de forma práctica el concepto de la *soberanía tecnológica*, expandiendo los principios que guían la nueva dirección del xref:glossary:ROOT:glossary.adoc#imi[Instituto Municipal de Informática de Barcelona (IMI)] en materia de tecnología e innovación: interoperabilidad, agilidad, reutilización, ética y apertura de conocimientos y tecnologías.
 
-Este documento pretende contribuir a que el IMI implemente la línea estratégica del Ayuntamiento de Barcelona que consiste en incorporar *las tecnologías abiertas y el software libre* en la mayor parte de sus servicios y procesos tecnológicos. 
+Este documento pretende contribuir a que el IMI implemente la línea estratégica del Ayuntamiento de Barcelona que consiste en incorporar *las tecnologías abiertas y el software libre* en la mayor parte de sus servicios y procesos tecnológicos.
 Este principio de soberanía tecnológica, junto con la *metodología ágil de desarrollo de servicios y la gestión responsable de datos*, compone la visión a medio plazo para la ágil transformación digital en la Ciudad de Barcelona.
 
 Según la declaración de París para el Open Government Partnership:
 [quote, Paris Declaration for Open Government Partnership; en línea en https://paris-declaration.ogpsummit.org/topic/5820e48c2fd812b46ab9facc]
 ____
-El software de código abierto contribuye a fomentar la transparencia y la colaboración. 
-El código abierto está en el corazón de la innovación digital y técnica. 
-Es el medio principal para prestar servicios digitales de alta calidad. 
-Los socios que se unan a él buscarán promover la transparencia y la rendición de cuentas del código abierto y de los algoritmos que desarrollen y usen, siempre que sea posible y apropiado. 
+El software de código abierto contribuye a fomentar la transparencia y la colaboración.
+El código abierto está en el corazón de la innovación digital y técnica.
+Es el medio principal para prestar servicios digitales de alta calidad.
+Los socios que se unan a él buscarán promover la transparencia y la rendición de cuentas del código abierto y de los algoritmos que desarrollen y usen, siempre que sea posible y apropiado.
 Los socios que se unan a él tratarán de diseñar los servicios e implementarlos de manera no discriminatoria y trabajar para maximizar los beneficios de compartir y reutilizar el código gubernamental.
 ____
 

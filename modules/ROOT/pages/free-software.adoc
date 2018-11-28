@@ -1,4 +1,4 @@
-== Software libre
+= Software libre
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
@@ -14,7 +14,7 @@ El uso del software libre no sigue las mismas reglas que el software licenciado 
 Lo cual implica que se requiera “comprar” tantas licencias como usos haya.
 
 El software libre se diferencia del software propietario por los derechos y las “libertades” concedidas en las correspondientes licencias (“licencias libres”, muchas de las cuáles han sido llamadas también “licencias de código abierto”).
-En resumidas cuentas, estos derechos permiten a cualquiera *utilizar, copiar o modificar libremenel software y redistribuirlo a terceros*, bajo ciertas condiciones.
+En resumidas cuentas, estos derechos permiten a cualquiera *utilizar, copiar o modificar libremente software y redistribuirlo a terceros*, bajo ciertas condiciones.
 
 Una licencia libre es una licencia que garantiza las “libertades del software”, según la Free Software Foundation (FSF).
 Una licencia de código abierto es aquella que cumple las directrices establecidas por la Open Source Initiative (OSI).
@@ -52,7 +52,7 @@ Esto se traduce, en todo caso y en términos de licencia, en que se permite al u
 Las licencias de software libre con _copyleft_ van más allá de garantizar las cuatro libertades básicas del software para los licenciatarios o usuarios directos.
 Una licencia que concede los mencionados derechos sin imponer condiciones permite al licenciatario incluir el software libre en otro software y redistribuir el resultado bajo licencia restrictiva o “propietaria”, de manera que los usuarios del nuevo programa no tendrán las libertades originalmente cedidas.
 Es decir, que no hay ninguna garantía de que el software siga siendo libre.
-Por lo que hubo que inventar un mecanismo para garantizar dicha libertad: el _*copyleft*_.
+Por lo que hubo que inventar un mecanismo para garantizar dicha libertad: el _copyleft_.
 
 Con el objetivo de asegurar que cualquier usuario del software pueda disfrutar de estas libertades en todo momento, las licencias de software libre con _copyleft_ obligan a los licenciatarios a:
 
@@ -67,11 +67,11 @@ Vemos que el _copyleft_ recoge los dos conceptos fundamentales del software libr
 
 Dentro del esquema general de estas libertades, existen varias maneras de expresarlas jurídicamente.
 Esto, junto con las distintas condiciones adicionales que uno puede agregar, es la causa de que existan cerca de 90 licencias actuales y del pasado clasificadas como “libres” por la FSF, muchas de las cuáles son reconocidas como de código abierto por la OSI, cada una con sus particularidades.
-La mayor diferencia radica en las condiciones sobre la redistribución y el grado de _copyleft_ suele ser el criterio de clasificación o diferenciación de las licencias.
+La mayor diferencia radica en las condiciones sobre la redistribución, y el grado de _copyleft_ suele ser el criterio de clasificación o diferenciación de las licencias.
 
 [loweralpha]
 . Si el programa se ha licenciado bajo una licencia “*permisiva*” (de tipo BSD o X/MIT), generalmente no hay condiciones sobre la redistribución, lo que permite mezclarlo con cualquier otro software.
-. Si el programa se ha licenciado bajo la licencia GPL u otra licencia “*con* _*copyleft*_”, entonces la redistribución del programa y de cualquier obra derivada o compuesta que la incluya, debe ser bajo la misma licencia (p. ej. la GPL), y ofrecer al usuario acceso al código fuente. Esto asegura que el programa quede “libre” y no pueda ser “privatizado”.
+. Si el programa se ha licenciado bajo la licencia GPL u otra licencia “con *_copyleft_*”, entonces la redistribución del programa y de cualquier obra derivada o compuesta que la incluya, debe ser bajo la misma licencia (p. ej. la GPL), y ofrecer al usuario acceso al código fuente. Esto asegura que el programa quede “libre” y no pueda ser “privatizado”.
 . Algunas licencias “intermedias” o con “*_copyleft_ suave*” (como la LGPL, la MPL o la EUPL) permiten agregar o vincular código nuevo al código original y distribuir el conjunto bajo una licencia nueva (propietaria o libre).
 Sin embargo, la parte original tendrá que ofrecerse bajo su licencia original, normalmente con el código fuente.
 Es una forma de copyleft parcial.
