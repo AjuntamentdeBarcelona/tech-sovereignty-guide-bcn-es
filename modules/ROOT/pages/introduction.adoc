@@ -1,18 +1,12 @@
 = Introducción y contexto
-:experimental:
-:icons: font
-:page-partial:
-:source-highlighter: highlightjs
-
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
-
 include::{partialsdir}/README.adoc[tag=metadata]
 
 == Objetivo
 
-Este documento constituye un documento de apoyo para el xref:{lang}/tech-practices:ROOT:aim-and-scope.adoc[Código de Prácticas Tecnológicas] que implementa de forma práctica el concepto de la *soberanía tecnológica*, expandiendo los principios que guían la nueva dirección del xref:glossary:ROOT:glossary.adoc#imi[Instituto Municipal de Informática de Barcelona (IMI)] en materia de tecnología e innovación: interoperabilidad, agilidad, reutilización, ética y apertura de conocimientos y tecnologías.
+Este documento constituye un documento de apoyo para el xref:{lang}/tech-practices:ROOT:aim-and-scope.adoc[Código de Prácticas Tecnológicas] que implementa de forma práctica el concepto de la *soberanía tecnológica*, expandiendo los principios que guían la nueva dirección del xref:{lang}/glossary:ROOT:glossary.adoc#imi[Instituto Municipal de Informática de Barcelona (IMI)] en materia de tecnología e innovación: interoperabilidad, agilidad, reutilización, ética y apertura de conocimientos y tecnologías.
 
 Este documento pretende contribuir a que el IMI implemente la línea estratégica del Ayuntamiento de Barcelona que consiste en incorporar *las tecnologías abiertas y el software libre* en la mayor parte de sus servicios y procesos tecnológicos.
 Este principio de soberanía tecnológica, junto con la *metodología ágil de desarrollo de servicios y la gestión responsable de datos*, compone la visión a medio plazo para la ágil transformación digital en la Ciudad de Barcelona.
