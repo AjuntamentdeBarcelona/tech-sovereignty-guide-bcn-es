@@ -83,7 +83,7 @@ Las diferentes legislaciones a las que el Ayuntamiento de Barcelona debe someter
 En cuanto a las condiciones de adquisición de tecnologías para los servicios digitales de las administraciones, de software libre o basadas en él, si bien ningún país europeo obliga a usar software libre, la mayoría prohíbe la discriminación de proveedores que presenten propuestas de software libre, basándose en los principios de libre competencia y no discriminación.
 Por contra, obligan a que el software suministrado cumpla con los estándares abiertos e internacionalmente reconocidos.
 
-Otros marcos reguladores establecen preferencias para el uso de tecnologías libres. En 2014, por ejemplo, el Gobierno italiano promovió soluciones libres, estableciendo una orden de prioridad en cuanto al análisis de las propuestas: las administraciones deben considerar soluciones libres antes que software propietario y ante soluciones cloud.18
+Otros marcos reguladores establecen preferencias para el uso de tecnologías libres. En 2014, por ejemplo, el Gobierno italiano promovió soluciones libres, estableciendo una orden de prioridad en cuanto al análisis de las propuestas: las administraciones deben considerar soluciones libres antes que software propietario y ante soluciones cloud.
 
 En España, los suministros a la administración pública de software y servicios relacionados con el software están principalmente reglamentados por el *Real Decreto Legislativo 3/2011,* *de 14 de noviembre, por el que se aprueba el texto refundido de la Ley de Contratos del Sector Público.* Más allá de los procedimientos habituales de la contratación pública (pliegos, ofertas, adjudicación, realización y resolución, etc.) destacamos algunos puntos importantes en el contexto del software libre:
 
@@ -94,9 +94,9 @@ Recordemos también el artículo 17 del RD 4/2010, de 8 de enero, que obliga a l
 
 == Licencias para la liberación de software por parte de la administración pública
 
-El artículo 16 del mencionado Real Decreto 4/2010, de 8 de enero, establece cuatro condiciones para la liberación de software por parte de las administraciones públicas españolas:
+El artículo 16 del mencionado Real Decreto 4/2010, de 8 de enero, establece cuatro condiciones para la liberación de software por parte de las administraciones públicas españolas; dos de ellas son:
 
-[quote, Cortes Generales (Spanish Parliament), "Real Decreto 4/2010, de 8 de enero"]
+[quote, Cortes Generales, "Real Decreto 4/2010, de 8 de enero"]
 ____
 [start=2]
 . Las administraciones utilizarán para las aplicaciones que declaren ser de fuentes abiertas aquellas licencias que aseguren que los programas, datos o información que se comparten:

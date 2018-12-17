@@ -173,7 +173,7 @@ Entendiendo que la no viabilidad, tanto por este punto como por el justamente an
 
 [.policy-summary]
 ******
-Los proyectos de desarrollo de servicios digitales tanto internos como externos deberán desarrollarse desde sus inicios con vistas a su liberación, siguiendo las mejoras prácticas de desarrollo de software libre, y se basarán en tecnologías abiertas que permitan que el producto final pueda liberarse.
+Los proyectos de desarrollo de servicios digitales tanto internos como externos deberán desarrollarse desde sus inicios con vistas a su liberación, siguiendo las mejores prácticas de desarrollo de software libre, y se basarán en tecnologías abiertas que permitan que el producto final pueda liberarse.
 Su documentación, diseño y otros elementos (sonidos, tipografías, etc.) también serán publicados bajo licencias abiertas.
 ******
 
