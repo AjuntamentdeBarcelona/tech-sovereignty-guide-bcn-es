@@ -135,7 +135,7 @@ Los principios básicos de software libre del IMI para cumplir con los principio
 . Para tal fin, los proyectos de desarrollo internos se basarán por defecto en tecnologías abiertas que permitan que el producto final sea liberado.
 . El uso del software libre se hará de forma progresiva para todos los sistemas y aplicaciones municipales a medida que se implemente el Plan de Migración a Software Libre del Ayuntamiento.
 
-Estos principios se concretan en las siguientes directrices recogidas en el xref:tech-practices:ROOT:aim-and-scope.adoc[Código de Prácticas Tecnológicas]:
+Estos principios se concretan en las siguientes directrices recogidas en el xref:{lang}/tech-practices:ROOT:aim-and-scope.adoc[Código de Prácticas Tecnológicas]:
 
 [.policy]
 .Adquisición
