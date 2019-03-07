@@ -6,7 +6,7 @@ include::{partialsdir}/README.adoc[tag=metadata]
 
 == Principios y directrices
 
-La política referente a la soberanía tecnológica del Ayuntamiento se basa en los principios y directrices indicados en el Plan Barcelona Digital 2017–2020: Transición hacia la Soberanía Tecnológica, los Estándares de Servicios Digitales (ESD) y el xref:tech-practices:ROOT:aim-and-scope.adoc[Código de Prácticas Tecnológicas (CPT)].
+La política referente a la soberanía tecnológica del Ayuntamiento se basa en los principios y directrices indicados en el Plan Barcelona Digital 2017–2020: Transición hacia la Soberanía Tecnológica, los Estándares de Servicios Digitales (ESD) y el xref:{lang}/tech-practices:ROOT:aim-and-scope.adoc[Código de Prácticas Tecnológicas (CPT)].
 
 En líneas generales, estos principios consisten en:
 
@@ -49,8 +49,7 @@ Se pueden dar dos situaciones distintas:
 * Cuando una necesidad específica de interoperabilidad no pueda ser resuelta por un estándar existente, se dará en los documentos técnicos que acompañan a los pliegos de contratación una especificación completa de los datos, los protocolos, las interfaces, los formatos o los procesos que se van a utilizar.
 Esta especificación tiene que permitir su implementación sin recurrir a productos o proveedores específicos.
 
-. Como caso concreto de despliegue de estas directrices de interoperatividad, véase por ejemplo la Política de Gestión Documental.
-(http://ajuntament.barcelona.cat/arxiumunicipal/sites/default/files/InstruccioPoliticaGD_cat.pdf)[http://ajuntament.barcelona.cat/arxiumunicipal/sites/default/files/InstruccioPoliticaGD_cat.pdf]
+. Como caso concreto de despliegue de estas directrices de interoperatividad, véase por ejemplo la http://hdl.handle.net/11703/84149[Política de Gestión Documental].
 ****
 
 [.policy]
@@ -136,7 +135,7 @@ Los principios básicos de software libre del IMI para cumplir con los principio
 . Para tal fin, los proyectos de desarrollo internos se basarán por defecto en tecnologías abiertas que permitan que el producto final sea liberado.
 . El uso del software libre se hará de forma progresiva para todos los sistemas y aplicaciones municipales a medida que se implemente el Plan de Migración a Software Libre del Ayuntamiento.
 
-Estos principios se concretan en las siguientes directrices recogidas en el xref:tech-practices:ROOT:aim-and-scope.adoc[Código de Prácticas Tecnológicas]:
+Estos principios se concretan en las siguientes directrices recogidas en el xref:{lang}/tech-practices:ROOT:aim-and-scope.adoc[Código de Prácticas Tecnológicas]:
 
 [.policy]
 .Adquisición
