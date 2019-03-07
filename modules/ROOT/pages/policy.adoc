@@ -6,7 +6,7 @@ include::{partialsdir}/README.adoc[tag=metadata]
 
 == Principios y directrices
 
-La política referente a la soberanía tecnológica del Ayuntamiento se basa en los principios y directrices indicados en el Plan Barcelona Digital 2017–2020: Transición hacia la Soberanía Tecnológica, los Estándares de Servicios Digitales (ESD) y el xref:tech-practices:ROOT:aim-and-scope.adoc[Código de Prácticas Tecnológicas (CPT)].
+La política referente a la soberanía tecnológica del Ayuntamiento se basa en los principios y directrices indicados en el Plan Barcelona Digital 2017–2020: Transición hacia la Soberanía Tecnológica, los Estándares de Servicios Digitales (ESD) y el xref:{lang}/tech-practices:ROOT:aim-and-scope.adoc[Código de Prácticas Tecnológicas (CPT)].
 
 En líneas generales, estos principios consisten en:
 
